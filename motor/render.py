@@ -65,7 +65,7 @@ def render(script, outdir, name):
                 "-c:a","aac","-b:a","160k"]
     else:
         cmd += ["-f","lavfi","-i","anullsrc=r=44100:cl=stereo","-c:a","aac","-b:a","96k"]
-    cmd += ["-t",f"{dur:.3f}",
+    cmd += ["-t",f"{n/FPS:.3f}",
             "-c:v","libx264","-preset","slow","-crf","19","-pix_fmt","yuv420p",
             "-vf","scale=1080:1920:flags=lanczos","-movflags","+faststart", str(out)]
     subprocess.run(cmd, check=True)
