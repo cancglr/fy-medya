@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="tr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Inter';src:local('Inter')}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0F14}
+#stage{position:relative;width:1080px;height:1920px;background:#0E0F14;overflow:hidden;
+  transform-origin:50% 50%}
+
+/* ---------- CHAT SCENE ---------- */
+#band{position:absolute;left:0;width:1080px;overflow:hidden;z-index:1}
+#col{position:absolute;left:0;top:0;width:1080px}
+#wall{position:absolute;left:0;top:0;width:1080px;z-index:0}
+#msgs{position:relative;z-index:1;padding:0 26px}
+
+.m{display:flex;margin:14px 0;font-family:Inter,'Noto Color Emoji',sans-serif}
+.m.u{justify-content:flex-end}
+.m.g{justify-content:flex-start}
+.b{max-width:74%;padding:19px 30px 21px;border-radius:36px;font-size:42px;line-height:1.26;
+   color:#fff;font-weight:400;letter-spacing:-.005em;word-wrap:break-word;position:relative}
+.m.u .b{background:#FE2C85}
+.m.g .b{background:rgba(228,220,255,.20)}
+.m.emoji .b{background:none;padding:6px 10px;font-size:88px}
+.rx{position:absolute;left:26px;bottom:-30px;background:#3a1c46;border-radius:999px;
+   padding:5px 12px;font-size:30px;line-height:1;box-shadow:0 0 0 3px rgba(14,15,20,.35)}
+.m.u .rx{left:auto;right:26px}
+.m.hasrx{margin-bottom:48px}
+.cen{display:inline-block;height:34px;border-radius:6px;background:#14121b;vertical-align:-4px;margin:0 3px}
+#sbar{position:absolute;right:9px;width:8px;border-radius:5px;background:rgba(255,255,255,.42);z-index:3}
+
+/* story reply header */
+.sys{display:flex;justify-content:flex-end;align-items:center;gap:12px;
+  font-family:Inter,sans-serif;font-size:31px;color:rgba(255,255,255,.62);margin:6px 6px 14px}
+.story{display:flex;justify-content:flex-end;margin:0 6px 6px}
+.story .ph{width:250px;height:400px;border-radius:20px;overflow:hidden;
+  box-shadow:0 6px 30px rgba(0,0,0,.45);background:#2a1c3a}
+.story .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.sbar{position:absolute;right:8px;width:7px;border-radius:4px;background:rgba(255,255,255,.5)}
+
+
+/* ---------- MEME SCENE ---------- */
+#meme{position:absolute;inset:0;display:none;align-items:center;justify-content:center;
+  background:#0E0F14;z-index:6;font-family:'Archivo',Inter,'Noto Color Emoji',sans-serif}
+#meme.on{display:flex}
+#mwrap{position:relative;width:1080px}
+#mimg{display:block;width:1080px;height:auto}
+#mlabel{position:absolute;left:0;top:0;background:#D91414;color:#fff;font-weight:800;
+  font-size:34px;letter-spacing:.01em;padding:12px 22px;display:none}
+#mhead{position:absolute;left:26px;font-family:'Anton',Impact,sans-serif;color:#fff;
+  font-size:96px;line-height:.96;letter-spacing:.005em;text-transform:uppercase;
+  text-shadow:0 6px 22px rgba(0,0,0,.85),0 0 3px rgba(0,0,0,.9);display:none;max-width:640px}
+#mhead.yellow{color:#FFD400}
+#mchip{position:absolute;left:50%;transform:translateX(-50%);bottom:30px;display:none;
+  width:1000px;text-align:center;line-height:1.20}
+#mchip .bx{background:#000;color:#fff;font-weight:700;font-size:74px;padding:4px 20px;
+  letter-spacing:-.015em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.em{font-family:'Noto Color Emoji',sans-serif;font-size:1.15em;line-height:1;vertical-align:-0.10em}
+
+
+/* ---------- APP SCENE ---------- */
+#app{position:absolute;left:0;top:46%;transform:translateY(-50%);width:1080px;display:none;flex-direction:column;z-index:5;
+  background:linear-gradient(157deg,#7C93FF 0%,#9E96FB 34%,#C9A7F2 62%,#F3C2DE 100%);
+  font-family:Inter,'Noto Color Emoji',sans-serif}
+#app.on{display:flex}
+#app .pad{padding:104px 58px 66px}
+.appbar{display:flex;align-items:center;justify-content:space-between;padding:64px 46px 0;flex:0 0 auto}
+.back{width:102px;height:102px;border-radius:999px;border:2.5px solid rgba(255,255,255,.75);
+  display:flex;align-items:center;justify-content:center}
+.back svg{width:40px;height:40px}
+.wm{font-size:86px;font-weight:800;letter-spacing:.02em}
+.wm span:nth-child(1){color:#4E6BFF}.wm span:nth-child(2){color:#6A63F2}
+.wm span:nth-child(3){color:#9A56D8}.wm span:nth-child(4){color:#D8409F}
+.wm span:nth-child(5){color:#FF3D8A}
+.ozet{display:flex;align-items:center;gap:14px;border:2.5px solid rgba(255,255,255,.75);
+  border-radius:999px;padding:18px 32px;font-size:40px;color:#1c1430;font-weight:500}
+.ozet svg{width:38px;height:38px}
+.sumcard{margin:0;border-radius:36px;padding:30px 26px;overflow:hidden;position:relative;
+  background:linear-gradient(140deg,#5B1560,#7A1873 55%,#5A1358)}
+.sumcard .mini{display:flex;margin:14px 0}
+.sumcard .mini.u{justify-content:flex-end}
+.sumcard .mini .bb{max-width:78%;padding:16px 26px;border-radius:30px;font-size:38px;
+  line-height:1.24;color:#fff}
+.sumcard .mini.u .bb{background:#FF2E8A}
+.sumcard .mini.g .bb{background:rgba(240,235,255,.22)}
+.copyrow{display:flex;align-items:center;gap:22px;margin:100px 0 38px;justify-content:center}
+.copyrow .dash{flex:0 0 200px;height:0;border-top:5px dashed rgba(35,20,60,.45)}
+.copyrow .lb{font-size:38px;font-weight:700;color:#2a1b45;white-space:nowrap}
+.pill{display:flex;align-items:flex-start;gap:26px;background:#08080C;border-radius:28px;
+  padding:34px 38px}
+.pill .z{font-size:48px;line-height:1.15;flex:0 0 auto}
+.pill .tx{font-size:46px;line-height:1.24;color:#fff;font-weight:400}
+.cta{margin-top:48px;text-align:center;font-size:36px;font-weight:800;color:#241a3d;letter-spacing:.01em}
+</style></head>
+<body>
+<div id="stage">
+  <div id="band"><div id="col"><div id="wall"></div><div id="msgs"></div></div><div id="sbar"></div></div>
+  <div id="meme"><div id="mwrap">
+    <img id="mimg">
+    <div id="mlabel"></div>
+    <div id="mhead"></div>
+    <div id="mchip"></div>
+  </div></div>
+  <div id="app">
+    <div class="appbar">
+      <div class="back"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></div>
+      <div class="wm"><span>F</span><span>L</span><span>Ö</span><span>R</span><span>T</span></div>
+      <div class="ozet"><svg viewBox="0 0 24 24" fill="none" stroke="#1c1430" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h11l5 5v11H4z"/><path d="M8 9h6M8 13h4"/><circle cx="16.5" cy="16.5" r="3"/><path d="M19 19l2.2 2.2"/></svg>Özet</div>
+    </div>
+    <div class="pad">
+      <div class="sumcard" id="sumcard"></div>
+      <div class="copyrow"><span class="dash"></span><span class="lb">Kopyalamak için dokun</span><span class="dash"></span></div>
+      <div class="pill"><div class="z">⚡</div><div class="tx" id="pilltx"></div></div>
+      <div class="cta" id="cta">(FLÖRT AI link bio'da)</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const W=1080,H=1920,PAD=22,WIN=3;
+let S=null, beats=[], meta=[], TL=[];
+
+function heartWall(h){
+  // dark purple wallpaper with soft glossy heart balloons
+  const rnd=mulberry(20260814);
+  let sh='';
+  const n=Math.max(14,Math.round(h/190));
+  for(let i=0;i<n;i++){
+    const s=90+rnd()*250, x=rnd()*(W+160)-80, y=rnd()*h;
+    const o=(0.20+rnd()*0.45).toFixed(2), rot=(rnd()*44-22).toFixed(1);
+    const g='hg'+(i%3);
+    sh+=`<g transform="translate(${x.toFixed(0)},${y.toFixed(0)}) rotate(${rot}) scale(${(s/100).toFixed(3)})" opacity="${o}">`
+      + `<path d="M50 88 C 12 62, 2 38, 16 22 C 28 8, 45 12, 50 26 C 55 12, 72 8, 84 22 C 98 38, 88 62, 50 88 Z" fill="url(#${g})"/>`
+      + `<ellipse cx="34" cy="30" rx="12" ry="8" fill="#ffffff" opacity="0.26" transform="rotate(-28 34 30)"/></g>`;
+  }
+  return `<svg width="${W}" height="${h}" viewBox="0 0 ${W} ${h}" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#59105F"/><stop offset="40%" stop-color="#7C1872"/>
+      <stop offset="100%" stop-color="#440D50"/></linearGradient>
+    <radialGradient id="hg0" cx="35%" cy="28%"><stop offset="0%" stop-color="#FF7BE0"/><stop offset="100%" stop-color="#A81C8E"/></radialGradient>
+    <radialGradient id="hg1" cx="35%" cy="28%"><stop offset="0%" stop-color="#E06BFF"/><stop offset="100%" stop-color="#7A17A0"/></radialGradient>
+    <radialGradient id="hg2" cx="35%" cy="28%"><stop offset="0%" stop-color="#FF5FA8"/><stop offset="100%" stop-color="#8E1560"/></radialGradient>
+    <filter id="sm"><feGaussianBlur stdDeviation="2.2"/></filter>
+  </defs>
+  <rect width="${W}" height="${h}" fill="url(#bg)"/>
+  <g filter="url(#sm)">${sh}</g>
+  <rect width="${W}" height="${h}" fill="#150920" opacity="0.22"/></svg>`;
+}
+function mulberry(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function cen(s){return String(s).replace(/█+/g,m=>`<span class="cen" style="width:${m.length*26}px"></span>`)}
+const EMOJI_ONLY=/^[\p{Extended_Pictographic}\p{Emoji_Component}\s]+$/u;
+
+function build(script){
+  S=script;
+  const box=document.getElementById('msgs'); box.innerHTML='';
+  meta=[];
+  // story header
+  if(S.story!==false){
+    const h=document.createElement('div'); h.className='unit';
+    h.innerHTML=`<div class="sys">${esc(S.sys||'Hikayesine yanıt verdin')}</div>`+
+      `<div class="story"><div class="ph">${S.photo?`<img src="${S.photo}">`:''}</div></div>`;
+    box.appendChild(h);
+  }
+  S.messages.forEach(m=>{
+    const d=document.createElement('div');
+    const emo=EMOJI_ONLY.test(m.text)&&m.text.trim().length<=6;
+    d.className='m unit '+(m.from==='u'?'u':'g')+(emo?' emoji':'')+(m.rx?' hasrx':'');
+    d.innerHTML=`<div class="b">${cen(esc(m.text)).replace(/\n/g,'<br>')}${m.rx?`<span class="rx">${m.rx}</span>`:''}</div>`;
+    box.appendChild(d);
+  });
+  // wallpaper sized to column
+  const colH=document.getElementById('msgs').offsetHeight+80;
+  document.getElementById('wall').style.height=colH+'px';
+  document.getElementById('wall').innerHTML=heartWall(colH);
+  document.getElementById('col').style.height=colH+'px';
+
+  const units=[...box.children];
+  meta=units.map(u=>({t:u.offsetTop,h:u.offsetHeight}));
+  // beats: window over last WIN units
+  beats=meta.map((_,k)=>{
+    const a=Math.max(0,k-(WIN-1));
+    const top=meta[a].t-PAD;
+    const bot=meta[k].t+meta[k].h+PAD;
+    return {top,h:Math.max(160,bot-top)};
+  });
+  // timeline
+  TL=[]; let t=0; const START=(S.story===false?0:1);
+  const HOLD=S.hold??1.0, MOVE=S.move??0.55, APP=S.appHold??2.0;
+  (S.memes||[]).forEach((mm,mi)=>{ if(mm.after===-1) TL.push({kind:'meme',d:mm.hold??1.3,mi:mi}); });
+  beats.forEach((b,k)=>{
+    if(k<START) return;
+    if(k>START) TL.push({kind:'move',from:k-1,to:k,d:MOVE});
+    TL.push({kind:'hold',at:k,d:(k===beats.length-1?(S.endHold??1.7):HOLD)});
+    if(S.appAfter!=null && k===S.appAfter) TL.push({kind:'app',d:APP});
+    (S.memes||[]).forEach((mm,mi)=>{ if(mm.after===k) TL.push({kind:'meme',d:mm.hold??1.35,mi:mi}); });
+  });
+  return {duration:TL.reduce((s,x)=>s+x.d,0),beats:beats.length};
+}
+
+function ease(p){return 1-Math.pow(1-p,3)}
+
+function seek(time){
+  let t=time,cur=null,p=0;
+  for(const s of TL){ if(t<=s.d+1e-9){cur=s;p=s.d?t/s.d:0;break;} t-=s.d; }
+  if(!cur){cur=TL[TL.length-1];p=1;}
+  const app=document.getElementById('app');
+  const band=document.getElementById('band'), col=document.getElementById('col');
+  const stage=document.getElementById('stage');
+  const mm=document.getElementById('meme');
+  if(cur.kind==='meme'){ paintMeme(S.memes[cur.mi]); mm.classList.add('on'); app.classList.remove('on');
+    band.style.visibility='hidden'; stage.style.transform='scale('+(1+0.018*p).toFixed(4)+')'; return; }
+  mm.classList.remove('on');
+  if(cur.kind==='app'){ app.classList.add('on'); band.style.visibility='hidden'; stage.style.transform='none'; return; }
+  app.classList.remove('on'); band.style.visibility='visible';
+  let bt,bh;
+  if(cur.kind==='hold'){ bt=beats[cur.at].top; bh=beats[cur.at].h; }
+  else{ const e=ease(p),a=beats[cur.from],b=beats[cur.to];
+        bt=a.top+(b.top-a.top)*e; bh=a.h+(b.h-a.h)*e; }
+  band.style.height=bh+'px';
+  band.style.top=Math.round((H-bh)/2)+'px';
+  col.style.top=(-bt)+'px';
+  const colH=parseFloat(document.getElementById('col').style.height)||1;
+  const sb=document.getElementById('sbar');
+  const th=Math.max(70,bh*bh/colH);
+  sb.style.height=th+'px';
+  sb.style.top=Math.min(bh-th-8,Math.max(8,(bt/Math.max(1,colH-bh))*(bh-th-16)+8))+'px';
+  // punchline zoom on final beats
+  const zi=S.zoomFrom??null;
+  let z=1;
+  if(zi!=null){
+    const k=(cur.kind==='hold')?cur.at:cur.to;
+    if(k>=zi) z=1+0.055*Math.min(1,(k-zi)/1.6);
+  }
+  stage.style.transform='scale('+z.toFixed(4)+')';
+}
+
+function showApp(){
+  const box=document.getElementById('sumcard');
+  const n=S.appSummary||3;
+  const idx=S.appAfter; // unit index (0 = story header)
+  const msgs=[];
+  for(let k=Math.max(0,idx-n+1);k<=idx;k++){
+    const mi=k-(S.story===false?0:1);
+    if(mi>=0&&mi<S.messages.length) msgs.push(S.messages[mi]);
+  }
+  box.innerHTML=msgs.map(m=>`<div class="mini ${m.from==='u'?'u':'g'}"><div class="bb">${esc(m.text)}</div></div>`).join('');
+  document.getElementById('pilltx').innerHTML=esc(S.suggestion).replace(/\n/g,'<br>');
+  if(S.cta===false) document.getElementById('cta').style.display='none';
+  else document.getElementById('cta').textContent=S.cta||"(FLÖRT AI link bio'da)";
+}
+function emo(t){return t.replace(/(\p{Extended_Pictographic}\uFE0F?)/gu,'<span class="em">$1</span>')}
+function paintMeme(m){
+  const img=document.getElementById('mimg'), lb=document.getElementById('mlabel'),
+        hd=document.getElementById('mhead'), ch=document.getElementById('mchip');
+  if(img.getAttribute('src')!==m.src) img.src=m.src;
+  lb.style.display='none'; hd.style.display='none'; ch.style.display='none';
+  hd.classList.toggle('yellow', !!m.yellow); ch.classList.toggle('plain', m.style==='alt');
+  if(m.label){ lb.textContent=m.label; lb.style.display='block'; }
+  if(m.head){ hd.innerHTML=String(m.head).replace(/\n/g,'<br>'); hd.style.display='block';
+              hd.style.fontSize=(m.headSize||96)+'px';
+              hd.style.bottom=(m.headBottom??60)+'px'; }
+  if(m.chip){ ch.innerHTML='<span class="bx">'+emo(String(m.chip))+'</span>'; ch.style.display='block';
+  }
+}
+window.__paintMeme=paintMeme;
+window.__build=build; window.__seek=seek; window.__showApp=showApp;
+</script>
+</body></html>

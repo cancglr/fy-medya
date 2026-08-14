@@ -1,0 +1,237 @@
+{
+ "P01": {
+  "file": "photos/havuz/P01.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P02": {
+  "file": "photos/havuz/P02.jpg",
+  "spice": 3,
+  "risk": false
+ },
+ "P03": {
+  "file": "photos/havuz/P03.jpg",
+  "spice": 3,
+  "risk": false
+ },
+ "P04": {
+  "file": "photos/havuz/P04.jpg",
+  "spice": 3,
+  "risk": false
+ },
+ "P06": {
+  "file": "photos/havuz/P06.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P08": {
+  "file": "photos/havuz/P08.jpg",
+  "spice": 3,
+  "risk": false
+ },
+ "P10": {
+  "file": "photos/havuz/P10.jpg",
+  "spice": 1,
+  "risk": false
+ },
+ "P11": {
+  "file": "photos/havuz/P11.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P12": {
+  "file": "photos/havuz/P12.jpg",
+  "spice": 1,
+  "risk": false
+ },
+ "P13": {
+  "file": "photos/havuz/P13.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P14": {
+  "file": "photos/havuz/P14.jpg",
+  "spice": 1,
+  "risk": false
+ },
+ "P17": {
+  "file": "photos/havuz/P17.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P20": {
+  "file": "photos/havuz/P20.jpg",
+  "spice": 3,
+  "risk": false
+ },
+ "P21": {
+  "file": "photos/havuz/P21.jpg",
+  "spice": 3,
+  "risk": false
+ },
+ "P22": {
+  "file": "photos/havuz/P22.jpg",
+  "spice": 3,
+  "risk": false
+ },
+ "P23": {
+  "file": "photos/havuz/P23.jpg",
+  "spice": 1,
+  "risk": false
+ },
+ "P25": {
+  "file": "photos/havuz/P25.jpg",
+  "spice": 1,
+  "risk": false
+ },
+ "P26": {
+  "file": "photos/havuz/P26.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P27": {
+  "file": "photos/havuz/P27.jpg",
+  "spice": 1,
+  "risk": false
+ },
+ "P28": {
+  "file": "photos/havuz/P28.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P29": {
+  "file": "photos/havuz/P29.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P30": {
+  "file": "photos/havuz/P30.jpg",
+  "spice": 3,
+  "risk": false
+ },
+ "P31": {
+  "file": "photos/havuz/P31.jpg",
+  "spice": 1,
+  "risk": false
+ },
+ "P32": {
+  "file": "photos/havuz/P32.jpg",
+  "spice": 1,
+  "risk": false
+ },
+ "P33": {
+  "file": "photos/havuz/P33.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P34": {
+  "file": "photos/havuz/P34.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P35": {
+  "file": "photos/havuz/P35.jpg",
+  "spice": 3,
+  "risk": true
+ },
+ "P37": {
+  "file": "photos/havuz/P37.jpg",
+  "spice": 3,
+  "risk": false
+ },
+ "P38": {
+  "file": "photos/havuz/P38.jpg",
+  "spice": 3,
+  "risk": false
+ },
+ "P40": {
+  "file": "photos/havuz/P40.jpg",
+  "spice": 1,
+  "risk": false
+ },
+ "P41": {
+  "file": "photos/havuz/P41.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P43": {
+  "file": "photos/havuz/P43.jpg",
+  "spice": 1,
+  "risk": false
+ },
+ "P44": {
+  "file": "photos/havuz/P44.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P45": {
+  "file": "photos/havuz/P45.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P47": {
+  "file": "photos/havuz/P47.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P48": {
+  "file": "photos/havuz/P48.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P50": {
+  "file": "photos/havuz/P50.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P52": {
+  "file": "photos/havuz/P52.jpg",
+  "spice": 3,
+  "risk": true
+ },
+ "P53": {
+  "file": "photos/havuz/P53.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P54": {
+  "file": "photos/havuz/P54.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P55": {
+  "file": "photos/havuz/P55.jpg",
+  "spice": 3,
+  "risk": true
+ },
+ "P57": {
+  "file": "photos/havuz/P57.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P58": {
+  "file": "photos/havuz/P58.jpg",
+  "spice": 3,
+  "risk": true
+ },
+ "P60": {
+  "file": "photos/havuz/P60.jpg",
+  "spice": 2,
+  "risk": false
+ },
+ "P61": {
+  "file": "photos/havuz/P61.jpg",
+  "spice": 3,
+  "risk": false
+ },
+ "P62": {
+  "file": "photos/havuz/P62.jpg",
+  "spice": 3,
+  "risk": true
+ },
+ "P63": {
+  "file": "photos/havuz/P63.jpg",
+  "spice": 3,
+  "risk": false
+ }
+}
