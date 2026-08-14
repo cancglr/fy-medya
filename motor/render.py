@@ -47,10 +47,28 @@ def render(script, outdir, name):
             seg_t += seg["d"]
         b.close()
     out = outdir/f"{name}.mp4"
-    subprocess.run(["ffmpeg","-y","-v","error","-framerate",str(FPS),
-        "-i",str(frames/"%05d.png"),
-        "-c:v","libx264","-preset","slow","-crf","19","-pix_fmt","yuv420p",
-        "-vf","scale=1080:1920:flags=lanczos","-movflags","+faststart", str(out)],check=True)
+    muzik = script.get("muzik")
+    if muzik and not str(muzik).startswith(("http://","https://")):
+        mp = Path(muzik)
+        if not mp.is_absolute(): mp = BASE/mp
+        if not mp.exists():
+            print(f"   ! muzik bulunamadi ({muzik}) -> sessiz uretiliyor")
+            muzik = None
+        else:
+            muzik = str(mp)
+    cmd = ["ffmpeg","-y","-v","error","-framerate",str(FPS),"-i",str(frames/"%05d.png")]
+    if muzik:
+        cmd += ["-ss",str(script.get("muzikBaslangic",0)),"-i",str(muzik)]
+        fo = max(0.0, dur-0.8)
+        cmd += ["-af", f"afade=t=in:st=0:d=0.35,afade=t=out:st={fo:.2f}:d=0.8,"
+                       f"volume={script.get('muzikSes',0.85)}",
+                "-c:a","aac","-b:a","160k"]
+    else:
+        cmd += ["-f","lavfi","-i","anullsrc=r=44100:cl=stereo","-c:a","aac","-b:a","96k"]
+    cmd += ["-t",f"{dur:.3f}",
+            "-c:v","libx264","-preset","slow","-crf","19","-pix_fmt","yuv420p",
+            "-vf","scale=1080:1920:flags=lanczos","-movflags","+faststart", str(out)]
+    subprocess.run(cmd, check=True)
     shutil.rmtree(frames)
     return out, dur, n
 

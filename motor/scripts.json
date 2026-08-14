@@ -2,6 +2,9 @@
  {
   "id": "T01",
   "slug": "kahve",
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
   "tema": "kelime oyunu / özgüven",
   "spice": 1,
   "son": "randevu",
@@ -94,6 +97,9 @@
  {
   "id": "T02",
   "slug": "transfer",
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
   "tema": "futbol göndermesi / özgüven",
   "spice": 1,
   "son": "randevu",
@@ -193,6 +199,9 @@
  {
   "id": "T03",
   "slug": "antrenman",
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
   "tema": "özgüven / tersleme",
   "spice": 2,
   "son": "numara",

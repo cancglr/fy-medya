@@ -2,3 +2,4 @@ out/
 frames/
 __pycache__/
 *.pyc
+muzik/*.mp3
