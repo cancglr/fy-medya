@@ -2,13 +2,10 @@
  {
   "id": "T01",
   "slug": "kahve",
-  "muzik": "muzik/bed.mp3",
-  "muzikBaslangic": 14,
-  "muzikSes": 0.85,
   "tema": "kelime oyunu / özgüven",
   "spice": 1,
   "son": "randevu",
-  "photo": "photos/T01.jpg",
+  "photo": "photos/havuz/P30.jpg",
   "suggestion": "Çünkü insanı ayakta tutan şey\nkarşısındaki",
   "appAfter": 5,
   "zoomFrom": 7,
@@ -39,8 +36,7 @@
    },
    {
     "from": "u",
-    "text": "karşısındaki",
-    "rx": "❤️"
+    "text": "karşısındaki"
    },
    {
     "from": "g",
@@ -92,116 +88,116 @@
     "hold": 1.6
    }
   ],
-  "endHold": 1.2
- },
- {
-  "id": "T02",
-  "slug": "transfer",
+  "endHold": 1.2,
   "muzik": "muzik/bed.mp3",
   "muzikBaslangic": 14,
   "muzikSes": 0.85,
-  "tema": "futbol göndermesi / özgüven",
-  "spice": 1,
+  "hesap": "dmsihirbazi",
+  "baslik": "Kahveyi o ısmarlıyor • • • • • #flört #sohbet #sevgili #tinder #flörtai",
+  "baslik_tipi": "punchline"
+ },
+ {
+  "id": "T02",
+  "slug": "kargo",
+  "tema": "kelime oyunu",
+  "spice": 2,
   "son": "randevu",
-  "photo": "photos/T02.jpg",
-  "suggestion": "Serbest kalan en iyi oyuncu\nsensin",
-  "appAfter": 4,
-  "zoomFrom": 6,
+  "photo": "photos/havuz/P22.jpg",
+  "suggestion": "Bu kadar iyi bir şey yanlış adrese düşmüş,\ndoğru yere teslim ediyorum",
+  "appAfter": 5,
+  "zoomFrom": 8,
   "messages": [
    {
     "from": "u",
-    "text": "Kulübünle sözleşmen bitmiş"
+    "text": "Kargon bende"
    },
    {
     "from": "g",
-    "text": "Ne kulübü"
+    "text": "Ne kargosu"
+   },
+   {
+    "from": "g",
+    "text": "Ben bir şey sipariş etmedim"
    },
    {
     "from": "u",
-    "text": "Bekar olduğunu söylüyorlar"
+    "text": "Ben ettim"
    },
    {
     "from": "g",
-    "text": "Kim söylüyor"
+    "text": "Anlamadım"
    },
    {
     "from": "u",
-    "text": "Serbest kalan en iyi oyuncu"
+    "text": "Bu kadar iyi bir şey yanlış adrese düşmüş"
    },
    {
     "from": "u",
-    "text": "sensin",
-    "rx": "❤️"
+    "text": "doğru yere teslim ediyorum"
    },
    {
     "from": "g",
-    "text": "AHAHAHAHSHSHSH"
+    "text": "AHAHAHSHSH"
    },
    {
     "from": "g",
-    "text": "bunu bir yerden mi aldın"
+    "text": "teslimat nereye"
    },
    {
     "from": "u",
-    "text": "Scout ağım geniş"
+    "text": "Cumartesi söylerim"
    },
    {
     "from": "g",
-    "text": "Peki teklif ne"
-   },
-   {
-    "from": "u",
-    "text": "Cumartesi akşam yemeği, bonservis bende"
-   },
-   {
-    "from": "g",
-    "text": "İmzaya geldim say 🖊️"
+    "text": "Adresi ben veririm o zaman 📦"
    }
   ],
   "memes": [
    {
     "after": 2,
-    "src": "memes/hazir_aceleci.jpg",
-    "hold": 1.3
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Kargo yolda",
+    "style": "alt"
    },
    {
-    "after": 4,
+    "after": 5,
     "src": "memes/gunes_isaret.jpg",
-    "chip": "Teklif geliyor",
-    "style": "alt",
-    "hold": 1.25
+    "chip": "Şimdi izle",
+    "style": "alt"
    },
    {
-    "after": 6,
-    "src": "memes/kapak_arda.jpg",
-    "hold": 1.4
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
    },
    {
-    "after": 8,
+    "after": 9,
     "src": "memes/arda_panik.jpg",
-    "chip": "Menajer yakalandı",
-    "style": "alt",
-    "hold": 1.25
+    "chip": "Adres lazım",
+    "style": "alt"
    },
    {
-    "after": 12,
+    "after": 11,
     "src": "memes/terim_stadyum.jpg",
     "label": "Son dakika",
-    "head": "İMZA\nTAMAM",
+    "head": "TESLİM\nEDİLDİ",
     "yellow": true,
     "headSize": 118,
     "headBottom": 48,
     "hold": 1.6
    }
   ],
-  "endHold": 1.2
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "dmsihirbazi",
+  "baslik": "Teslimat tamam • • • • • #flört #manita #sohbet #keşfet #flörtai",
+  "baslik_tipi": "soru"
  },
  {
   "id": "T03",
   "slug": "antrenman",
-  "muzik": "muzik/bed.mp3",
-  "muzikBaslangic": 14,
-  "muzikSes": 0.85,
   "tema": "özgüven / tersleme",
   "spice": 2,
   "son": "numara",
@@ -236,8 +232,7 @@
    },
    {
     "from": "u",
-    "text": "sadece izlersin",
-    "rx": "❤️"
+    "text": "sadece izlersin"
    },
    {
     "from": "g",
@@ -293,6 +288,3537 @@
     "hold": 1.6
    }
   ],
-  "endHold": 1.2
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "tavlamauzman",
+  "baslik": "Program değişti • • • • • #flört #sevgili #tinder #flörttaktikleri #flörtai",
+  "baslik_tipi": "punchline"
+ },
+ {
+  "id": "B04",
+  "slug": "otopark",
+  "hesap": "tavlamauzman",
+  "tema": "kelime oyunu / özgüven",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P37.jpg",
+  "suggestion": "Kafamın içinde,\nüstelik ücretini de ödemiyorsun",
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "messages": [
+   {
+    "from": "u",
+    "text": "Arabanı yanlış yere park etmişsin"
+   },
+   {
+    "from": "g",
+    "text": "Nereye"
+   },
+   {
+    "from": "g",
+    "text": "Arabam bile yok"
+   },
+   {
+    "from": "u",
+    "text": "Var"
+   },
+   {
+    "from": "g",
+    "text": "Neredeymiş"
+   },
+   {
+    "from": "u",
+    "text": "Kafamın içinde"
+   },
+   {
+    "from": "u",
+    "text": "üstelik ücretini de ödemiyorsun"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjs"
+   },
+   {
+    "from": "g",
+    "text": "ceza mı keseceksin"
+   },
+   {
+    "from": "u",
+    "text": "Aylık abonelik teklif ediyorum"
+   },
+   {
+    "from": "g",
+    "text": "0537 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "faturayı yolla bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/hoca_saha.jpg",
+    "chip": "Park yasak",
+    "style": "alt"
+   },
+   {
+    "after": 5,
+    "src": "memes/terim_bashi.jpg",
+    "chip": "Yer ayrıldı",
+    "style": "alt"
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Ceza geliyor",
+    "style": "alt"
+   },
+   {
+    "after": 11,
+    "src": "memes/kapak_kral.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Yer ayırdık • • • • • #flört #sohbet #sevgili #tinder #flörtai",
+  "baslik_tipi": "soru"
+ },
+ {
+  "id": "B05",
+  "slug": "sinav",
+  "hesap": "dmsihirbazi",
+  "tema": "kelime oyunu",
+  "spice": 1,
+  "son": "randevu",
+  "photo": "photos/havuz/P40.jpg",
+  "suggestion": "Öğretmen olsam seni sınıfta bırakırdım,\nbir yıl daha görmek için",
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "messages": [
+   {
+    "from": "u",
+    "text": "Sınavdan kaç aldın"
+   },
+   {
+    "from": "g",
+    "text": "Ne sınavı"
+   },
+   {
+    "from": "g",
+    "text": "Okul bitti benim"
+   },
+   {
+    "from": "u",
+    "text": "Ben not verdim zaten"
+   },
+   {
+    "from": "g",
+    "text": "Kaç"
+   },
+   {
+    "from": "u",
+    "text": "Öğretmen olsam seni sınıfta bırakırdım"
+   },
+   {
+    "from": "u",
+    "text": "bir yıl daha görmek için",
+    "rx": "❤️"
+   },
+   {
+    "from": "g",
+    "text": "ahahahsjdj"
+   },
+   {
+    "from": "g",
+    "text": "bu ne şimdi"
+   },
+   {
+    "from": "u",
+    "text": "Ek ders talebi"
+   },
+   {
+    "from": "g",
+    "text": "Cumartesi konuşuruz o zaman"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/hazir_aceleci.jpg",
+    "hold": 1.3
+   },
+   {
+    "after": 5,
+    "src": "memes/terim_bashi.jpg",
+    "chip": "Not veriyoruz",
+    "style": "alt"
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/gunes_isaret.jpg",
+    "chip": "Ek ders geliyor",
+    "style": "alt"
+   },
+   {
+    "after": 11,
+    "src": "memes/terim_stadyum.jpg",
+    "label": "Son dakika",
+    "head": "DERS\nTAMAM",
+    "yellow": true,
+    "headSize": 118,
+    "headBottom": 48,
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Ek ders aldık • • • • • #flört #manita #sohbet #keşfet #flörtai",
+  "baslik_tipi": "punchline"
+ },
+ {
+  "id": "B06",
+  "slug": "kutuphane",
+  "hesap": "dmsihirbazi",
+  "tema": "kelime oyunu",
+  "spice": 1,
+  "son": "randevu",
+  "photo": "photos/havuz/P02.jpg",
+  "suggestion": "Orada konuşmak yasak,\nben de sana bakmak istiyorum",
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "messages": [
+   {
+    "from": "u",
+    "text": "Kütüphaneye gelir misin"
+   },
+   {
+    "from": "g",
+    "text": "Neden"
+   },
+   {
+    "from": "g",
+    "text": "Ders mi çalışacağız"
+   },
+   {
+    "from": "u",
+    "text": "Hayır"
+   },
+   {
+    "from": "g",
+    "text": "E ne yapacağız"
+   },
+   {
+    "from": "u",
+    "text": "Orada konuşmak yasak"
+   },
+   {
+    "from": "u",
+    "text": "ben de sana bakmak istiyorum"
+   },
+   {
+    "from": "g",
+    "text": "ahahahahs"
+   },
+   {
+    "from": "g",
+    "text": "bu kadar mı"
+   },
+   {
+    "from": "u",
+    "text": "Fazlası kovulmamıza sebep olur"
+   },
+   {
+    "from": "g",
+    "text": "Perşembe müsaitim 📚"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/hazir_aceleci.jpg",
+    "hold": 1.3
+   },
+   {
+    "after": 5,
+    "src": "memes/gunes_isaret.jpg",
+    "chip": "Sessiz olun",
+    "style": "alt"
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Kovulmayalım",
+    "style": "alt"
+   },
+   {
+    "after": 11,
+    "src": "memes/terim_stadyum.jpg",
+    "label": "Son dakika",
+    "head": "RANDEVU\nALINDI",
+    "yellow": true,
+    "headSize": 110,
+    "headBottom": 48,
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Sessiz olun • • • • • #flört #sevgili #tinder #flörttaktikleri #flörtai",
+  "baslik_tipi": "soru"
+ },
+ {
+  "id": "B07",
+  "slug": "trafik",
+  "hesap": "tavlamauzman",
+  "tema": "kelime oyunu / özgüven",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P34.jpg",
+  "suggestion": "Kalbime bu hızla girilmez,\nradar var",
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "messages": [
+   {
+    "from": "u",
+    "text": "Ceza yemişsin"
+   },
+   {
+    "from": "g",
+    "text": "Ben mi"
+   },
+   {
+    "from": "g",
+    "text": "Ne cezası"
+   },
+   {
+    "from": "u",
+    "text": "Hız sınırı var burada"
+   },
+   {
+    "from": "g",
+    "text": "Nerede"
+   },
+   {
+    "from": "u",
+    "text": "Kalbime bu hızla girilmez"
+   },
+   {
+    "from": "u",
+    "text": "radar var",
+    "rx": "❤️"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjs"
+   },
+   {
+    "from": "g",
+    "text": "memur bey mi oldun"
+   },
+   {
+    "from": "u",
+    "text": "Sivil ekip"
+   },
+   {
+    "from": "g",
+    "text": "0532 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "tutanağı yaz bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/hoca_saha.jpg",
+    "chip": "Radar var",
+    "style": "alt"
+   },
+   {
+    "after": 5,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Sakin",
+    "style": "alt"
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Sivil ekip",
+    "style": "alt"
+   },
+   {
+    "after": 11,
+    "src": "memes/kapak_arda.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Radar yakaladı • • • • • #flört #sohbet #sevgili #tinder #flörtai",
+  "baslik_tipi": "punchline"
+ },
+ {
+  "id": "B08",
+  "slug": "garanti",
+  "hesap": "tavlamauzman",
+  "tema": "kelime oyunu / iltifat",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P20.jpg",
+  "suggestion": "Bu kalitede bir şey\niki yıl garantiyle satılmaz",
+  "appAfter": 4,
+  "zoomFrom": 6,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "messages": [
+   {
+    "from": "u",
+    "text": "Garantin bitmiş"
+   },
+   {
+    "from": "g",
+    "text": "Neyin garantisi"
+   },
+   {
+    "from": "u",
+    "text": "Kendi kendine bozulmuyorsun ama"
+   },
+   {
+    "from": "g",
+    "text": "Ne diyorsun sen"
+   },
+   {
+    "from": "u",
+    "text": "Bu kalitede bir şey"
+   },
+   {
+    "from": "u",
+    "text": "iki yıl garantiyle satılmaz"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSHS"
+   },
+   {
+    "from": "g",
+    "text": "satıcı mısın nesin"
+   },
+   {
+    "from": "u",
+    "text": "Sadece ürünü tanıyorum"
+   },
+   {
+    "from": "g",
+    "text": "0505 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "belgeyi yolla o zaman"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/hazir_havaya.jpg",
+    "hold": 1.3
+   },
+   {
+    "after": 4,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Ekspertiz",
+    "style": "alt"
+   },
+   {
+    "after": 6,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 8,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Satıcı değil",
+    "style": "alt"
+   },
+   {
+    "after": 10,
+    "src": "memes/kapak_kral.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Garanti dışı • • • • • #flört #manita #sohbet #keşfet #flörtai",
+  "baslik_tipi": "soru"
+ },
+ {
+  "id": "B09",
+  "slug": "internet",
+  "hesap": "dmsihirbazi",
+  "tema": "kelime oyunu",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P38.jpg",
+  "suggestion": "Fotoğrafın açıldı ama\nben hâlâ toparlanamadım",
+  "appAfter": 4,
+  "zoomFrom": 6,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "messages": [
+   {
+    "from": "u",
+    "text": "İnternetin yavaş mı"
+   },
+   {
+    "from": "g",
+    "text": "Normal neden"
+   },
+   {
+    "from": "u",
+    "text": "Bir saattir yükleniyorsun"
+   },
+   {
+    "from": "g",
+    "text": "Nasıl yani"
+   },
+   {
+    "from": "u",
+    "text": "Fotoğrafın açıldı ama"
+   },
+   {
+    "from": "u",
+    "text": "ben hâlâ toparlanamadım"
+   },
+   {
+    "from": "g",
+    "text": "ahahahahsjdj"
+   },
+   {
+    "from": "g",
+    "text": "bu ne kadar kötü"
+   },
+   {
+    "from": "u",
+    "text": "Ama açtın işte"
+   },
+   {
+    "from": "g",
+    "text": "0538 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "bir daha yükle bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Bağlantı zayıf",
+    "style": "alt"
+   },
+   {
+    "after": 4,
+    "src": "memes/gunes_isaret.jpg",
+    "chip": "Yükleniyor",
+    "style": "alt"
+   },
+   {
+    "after": 6,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 8,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Toparlanamadım",
+    "style": "alt"
+   },
+   {
+    "after": 10,
+    "src": "memes/kapak_arda.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Bağlantı koptu • • • • • #flört #sevgili #tinder #flörttaktikleri #flörtai",
+  "baslik_tipi": "punchline"
+ },
+ {
+  "id": "B10",
+  "slug": "asansor",
+  "hesap": "dmsihirbazi",
+  "tema": "absürt / özgüven",
+  "spice": 1,
+  "son": "gülme",
+  "photo": "photos/havuz/P03.jpg",
+  "suggestion": "Çıkmak için acelem yok,\nburada senin hikayen açık",
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "messages": [
+   {
+    "from": "u",
+    "text": "Asansörde kaldım"
+   },
+   {
+    "from": "g",
+    "text": "Ciddi misin"
+   },
+   {
+    "from": "g",
+    "text": "İtfaiye aradın mı"
+   },
+   {
+    "from": "u",
+    "text": "Aramadım"
+   },
+   {
+    "from": "g",
+    "text": "Neden"
+   },
+   {
+    "from": "u",
+    "text": "Çıkmak için acelem yok"
+   },
+   {
+    "from": "u",
+    "text": "burada senin hikayen açık"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "kurtarma ekibi göndereyim mi"
+   },
+   {
+    "from": "u",
+    "text": "Sen gel yeter"
+   },
+   {
+    "from": "g",
+    "text": "bir düşüneyim 🙃"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/hazir_buyukayip.jpg",
+    "hold": 1.3
+   },
+   {
+    "after": 5,
+    "src": "memes/terim_bashi.jpg",
+    "chip": "Acele yok",
+    "style": "alt"
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/arda_panik.jpg",
+    "chip": "İtfaiye lazım",
+    "style": "alt"
+   },
+   {
+    "after": 11,
+    "src": "memes/terim_bashi.jpg",
+    "chip": "Kurtarıldı",
+    "style": "alt",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Kurtarmaya gerek yok • • • • • #flört #sohbet #sevgili #tinder #flörtai",
+  "baslik_tipi": "soru"
+ },
+ {
+  "id": "B11",
+  "slug": "sarj",
+  "hesap": "dmsihirbazi",
+  "tema": "kelime oyunu",
+  "spice": 1,
+  "son": "numara",
+  "photo": "photos/havuz/P25.jpg",
+  "suggestion": "Seni aramaya çalışıyordum,\nson yüzdeyi ona harcadım",
+  "appAfter": 4,
+  "zoomFrom": 6,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "messages": [
+   {
+    "from": "u",
+    "text": "Telefonun şarjı var mı"
+   },
+   {
+    "from": "g",
+    "text": "Var neden"
+   },
+   {
+    "from": "u",
+    "text": "Bende kalmadı"
+   },
+   {
+    "from": "g",
+    "text": "E ben ne yapayım"
+   },
+   {
+    "from": "u",
+    "text": "Seni aramaya çalışıyordum"
+   },
+   {
+    "from": "u",
+    "text": "son yüzdeyi ona harcadım",
+    "rx": "❤️"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjshd"
+   },
+   {
+    "from": "g",
+    "text": "numaramı bile bilmiyorsun"
+   },
+   {
+    "from": "u",
+    "text": "Onu da çözerim"
+   },
+   {
+    "from": "g",
+    "text": "0538 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "bak kolaylaştırdım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/hazir_aceleci.jpg",
+    "hold": 1.3
+   },
+   {
+    "after": 4,
+    "src": "memes/gunes_isaret.jpg",
+    "chip": "Arama geliyor",
+    "style": "alt"
+   },
+   {
+    "after": 6,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 8,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Numara yok",
+    "style": "alt"
+   },
+   {
+    "after": 10,
+    "src": "memes/kapak_kral.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Son yüzdeye değdi • • • • • #flört #manita #sohbet #keşfet #flörtai",
+  "baslik_tipi": "punchline"
+ },
+ {
+  "id": "B12",
+  "slug": "mac",
+  "hesap": "tavlamauzman",
+  "tema": "futbol göndermesi",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P17.jpg",
+  "suggestion": "90 dakika bir şey izledim ama\nmaç değildi",
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "messages": [
+   {
+    "from": "u",
+    "text": "Maçı kaçırdım senin yüzünden"
+   },
+   {
+    "from": "g",
+    "text": "Ne maçı"
+   },
+   {
+    "from": "g",
+    "text": "Beni tanımıyorsun bile"
+   },
+   {
+    "from": "u",
+    "text": "Hikayen çıktı ekrana"
+   },
+   {
+    "from": "g",
+    "text": "Ee"
+   },
+   {
+    "from": "u",
+    "text": "90 dakika bir şey izledim ama"
+   },
+   {
+    "from": "u",
+    "text": "maç değildi",
+    "rx": "❤️"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHAHSHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "sapık mısın sen"
+   },
+   {
+    "from": "u",
+    "text": "Taraftarım"
+   },
+   {
+    "from": "g",
+    "text": "0507 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "forma numaran kaç bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/kapak_arda.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 5,
+    "src": "memes/hoca_saha.jpg",
+    "chip": "Maç başlıyor",
+    "style": "alt"
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Kırmızı kart",
+    "style": "alt"
+   },
+   {
+    "after": 11,
+    "src": "memes/kapak_kral.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Kanka etiketle yorumlarda • • • • • #flört #sevgili #tinder #flörttaktikleri #flörtai",
+  "baslik_tipi": "soru"
+ },
+ {
+  "id": "B13",
+  "slug": "sigorta",
+  "hesap": "tavlamauzman",
+  "tema": "özgüven / iltifat",
+  "spice": 1,
+  "son": "randevu",
+  "photo": "photos/havuz/P32.jpg",
+  "suggestion": "Bu kadar değerli bir şeyi\nyeterince sigortalamamışlar",
+  "appAfter": 4,
+  "zoomFrom": 6,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "messages": [
+   {
+    "from": "u",
+    "text": "Sigortacın kim"
+   },
+   {
+    "from": "g",
+    "text": "Neden ki"
+   },
+   {
+    "from": "u",
+    "text": "Değiştirmen lazım"
+   },
+   {
+    "from": "g",
+    "text": "Sebep"
+   },
+   {
+    "from": "u",
+    "text": "Bu kadar değerli bir şeyi"
+   },
+   {
+    "from": "u",
+    "text": "yeterince sigortalamamışlar"
+   },
+   {
+    "from": "g",
+    "text": "ahahahahs"
+   },
+   {
+    "from": "g",
+    "text": "satış mı yapıyorsun bana"
+   },
+   {
+    "from": "u",
+    "text": "Sadece risk analizi"
+   },
+   {
+    "from": "g",
+    "text": "Perşembe müsaitim, anlat 😌"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Ekspertiz",
+    "style": "alt"
+   },
+   {
+    "after": 4,
+    "src": "memes/gunes_isaret.jpg",
+    "chip": "Teklif geliyor",
+    "style": "alt"
+   },
+   {
+    "after": 6,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 8,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Satış değil",
+    "style": "alt"
+   },
+   {
+    "after": 10,
+    "src": "memes/terim_stadyum.jpg",
+    "label": "Son dakika",
+    "head": "POLİÇE\nİMZALANDI",
+    "yellow": true,
+    "headSize": 104,
+    "headBottom": 48,
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Poliçe imzalandı • • • • • #flört #sohbet #sevgili #tinder #flörtai",
+  "baslik_tipi": "punchline"
+ },
+ {
+  "id": "B14",
+  "slug": "uyku",
+  "hesap": "tavlamauzman",
+  "tema": "cinsel ima / iltifat",
+  "spice": 3,
+  "son": "numara",
+  "photo": "photos/havuz/P21.jpg",
+  "suggestion": "Gözlerimi kapattığımda\nkarşımdaki manzarayı kaçırmak istemedim",
+  "appAfter": 4,
+  "zoomFrom": 6,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "messages": [
+   {
+    "from": "u",
+    "text": "Dün gece uyuyamadım"
+   },
+   {
+    "from": "g",
+    "text": "Bana ne"
+   },
+   {
+    "from": "u",
+    "text": "Haklısın"
+   },
+   {
+    "from": "g",
+    "text": "Neden uyuyamadın peki"
+   },
+   {
+    "from": "u",
+    "text": "Gözlerimi kapattığımda"
+   },
+   {
+    "from": "u",
+    "text": "karşımdaki manzarayı kaçırmak istemedim"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSHS"
+   },
+   {
+    "from": "g",
+    "text": "manzara mıyım ben"
+   },
+   {
+    "from": "u",
+    "text": "Panoramik"
+   },
+   {
+    "from": "g",
+    "text": "0536 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "yeter artık 🫠"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/hazir_havaya.jpg",
+    "hold": 1.3
+   },
+   {
+    "after": 4,
+    "src": "memes/gunes_isaret.jpg",
+    "chip": "Gece geliyor",
+    "style": "alt"
+   },
+   {
+    "after": 6,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 8,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Panoramik",
+    "style": "alt"
+   },
+   {
+    "after": 10,
+    "src": "memes/kapak_kral.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Uyku kaçtı • • • • • #flört #sevgili #tinder #flörttaktikleri #flörtai",
+  "baslik_tipi": "soru"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "tavlamauzman",
+  "baslik_tipi": "punchline",
+  "id": "T15",
+  "slug": "ofsayt",
+  "tema": "futbol göndermesi",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P54.jpg",
+  "suggestion": "Sana bakarken hattı geçmişim,\nbayrak kalktı",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Ofsayta düştüm"
+   },
+   {
+    "from": "g",
+    "text": "Ne"
+   },
+   {
+    "from": "g",
+    "text": "Kimsin sen"
+   },
+   {
+    "from": "u",
+    "text": "Hikayeni açtım"
+   },
+   {
+    "from": "g",
+    "text": "Ee"
+   },
+   {
+    "from": "u",
+    "text": "Sana bakarken hattı geçmişim"
+   },
+   {
+    "from": "u",
+    "text": "bayrak kalktı"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjshd"
+   },
+   {
+    "from": "g",
+    "text": "futbolcu musun sen"
+   },
+   {
+    "from": "u",
+    "text": "Forvet"
+   },
+   {
+    "from": "g",
+    "text": "0533 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "gol at bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Pozisyon şüpheli",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 5,
+    "src": "memes/hoca_saha.jpg",
+    "chip": "Bayrak hazır",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/gunes_isaret.jpg",
+    "chip": "Forvetmiş",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 11,
+    "src": "memes/kapak_kral.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Bayrak kalktı • • • • • #flört #sevgili #tinder #flörttaktikleri #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "tavlamauzman",
+  "baslik_tipi": "punchline",
+  "id": "T16",
+  "slug": "taksi",
+  "tema": "kelime oyunu",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P29.jpg",
+  "suggestion": "Hikayene bakalı on dakika oldu,\nborç birikti",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Taksimetre açık"
+   },
+   {
+    "from": "g",
+    "text": "Ne taksimetresi"
+   },
+   {
+    "from": "g",
+    "text": "Taksici misin sen"
+   },
+   {
+    "from": "u",
+    "text": "Sayaç dönüyor ama"
+   },
+   {
+    "from": "g",
+    "text": "Neyin sayacı"
+   },
+   {
+    "from": "u",
+    "text": "Hikayene bakalı on dakika oldu"
+   },
+   {
+    "from": "u",
+    "text": "borç birikti"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "ödemem ben"
+   },
+   {
+    "from": "u",
+    "text": "Taksit yaparız"
+   },
+   {
+    "from": "g",
+    "text": "0546 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "hesabı gönder bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/gunes_selam.jpg",
+    "chip": "Buyurun abi",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 5,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Sayaç işliyor",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/hazir_aceleci.jpg",
+    "hold": 1.3
+   },
+   {
+    "after": 11,
+    "src": "memes/kapak_arda.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Sayaç döndü • • • • • #flört #manita #sohbet #keşfet #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "tavlamauzman",
+  "baslik_tipi": "punchline",
+  "id": "T17",
+  "slug": "hava",
+  "tema": "kelime oyunu",
+  "spice": 1,
+  "son": "randevu",
+  "photo": "photos/havuz/P28.jpg",
+  "suggestion": "Güneş öğlen çıkar demişlerdi,\nsen üçte çıktın",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Bugün tahmin tutmadı"
+   },
+   {
+    "from": "g",
+    "text": "Ne tahmini"
+   },
+   {
+    "from": "g",
+    "text": "Yağmur mu yağdı"
+   },
+   {
+    "from": "u",
+    "text": "Meteoroloji yanıldı"
+   },
+   {
+    "from": "g",
+    "text": "Nerede yanıldı"
+   },
+   {
+    "from": "u",
+    "text": "Güneş öğlen çıkar demişlerdi"
+   },
+   {
+    "from": "u",
+    "text": "sen üçte çıktın"
+   },
+   {
+    "from": "g",
+    "text": "hshshshs"
+   },
+   {
+    "from": "g",
+    "text": "meteorolojici misin"
+   },
+   {
+    "from": "u",
+    "text": "Yarını da biliyorum"
+   },
+   {
+    "from": "g",
+    "text": "cumartesi görüşürüz o zaman"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Hava kapalı",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 5,
+    "src": "memes/hoca_saha.jpg",
+    "chip": "Güneş geliyor",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/gunes_isaret.jpg",
+    "chip": "Güneş burada",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 11,
+    "src": "memes/terim_stadyum.jpg",
+    "label": "Son dakika",
+    "head": "RANDEVU\nTAMAM",
+    "yellow": true,
+    "headSize": 118,
+    "headBottom": 48,
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Tahmin tuttu • • • • • #flört #sohbet #sevgili #tinder #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "tavlamauzman",
+  "baslik_tipi": "punchline",
+  "id": "T18",
+  "slug": "market",
+  "tema": "özgüven",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P11.jpg",
+  "suggestion": "Senin gibisinin fiyatı yokmuş,\nsistemde kayıtlı değil",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Kasada sıkıntı çıktı"
+   },
+   {
+    "from": "g",
+    "text": "Ne kasası"
+   },
+   {
+    "from": "g",
+    "text": "Beni mi diyorsun"
+   },
+   {
+    "from": "u",
+    "text": "Barkod okumadı"
+   },
+   {
+    "from": "g",
+    "text": "Neyin barkodu"
+   },
+   {
+    "from": "u",
+    "text": "Senin gibisinin fiyatı yokmuş"
+   },
+   {
+    "from": "u",
+    "text": "sistemde kayıtlı değil"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "eşya mıyım ben"
+   },
+   {
+    "from": "u",
+    "text": "Sınırlı üretim"
+   },
+   {
+    "from": "g",
+    "text": "0507 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "stoğu kontrol et bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Kasada kaldık",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 5,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Fiyat soruluyor",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/hazir_havaya.jpg",
+    "hold": 1.3
+   },
+   {
+    "after": 11,
+    "src": "memes/kapak_kral.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Stokta yok • • • • • #flört #sevgili #tinder #flörttaktikleri #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "tavlamauzman",
+  "baslik_tipi": "punchline",
+  "id": "T19",
+  "slug": "kredi",
+  "tema": "kelime oyunu",
+  "spice": 1,
+  "son": "randevu",
+  "photo": "photos/havuz/P45.jpg",
+  "suggestion": "Değerlendirdim, teminat istemedim,\nyüzün yeterli",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Başvurun onaylandı"
+   },
+   {
+    "from": "g",
+    "text": "Ne başvurusu"
+   },
+   {
+    "from": "g",
+    "text": "Ben bir şey yapmadım"
+   },
+   {
+    "from": "u",
+    "text": "Hikaye attın ya"
+   },
+   {
+    "from": "g",
+    "text": "Ee"
+   },
+   {
+    "from": "u",
+    "text": "Değerlendirdim, teminat istemedim"
+   },
+   {
+    "from": "u",
+    "text": "yüzün yeterli"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjs"
+   },
+   {
+    "from": "g",
+    "text": "bankacı mısın sen"
+   },
+   {
+    "from": "u",
+    "text": "Müdürüm"
+   },
+   {
+    "from": "g",
+    "text": "cuma imzalarız o zaman"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Dosya inceleniyor",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 5,
+    "src": "memes/terim_bashi.jpg",
+    "chip": "Onay verildi",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/gunes_selam.jpg",
+    "chip": "Müdür bey",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 11,
+    "src": "memes/terim_stadyum.jpg",
+    "label": "Son dakika",
+    "head": "İMZA\nCUMA",
+    "yellow": true,
+    "headSize": 118,
+    "headBottom": 48,
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Onay çıktı • • • • • #flört #manita #sohbet #keşfet #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "tavlamauzman",
+  "baslik_tipi": "punchline",
+  "id": "T20",
+  "slug": "recete",
+  "tema": "kelime oyunu",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P41.jpg",
+  "suggestion": "Hikayende canım sıkkın yazmışsın,\ngünde iki mesaj, bana",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Reçete yazdım"
+   },
+   {
+    "from": "g",
+    "text": "Ne reçetesi"
+   },
+   {
+    "from": "g",
+    "text": "Doktor musun"
+   },
+   {
+    "from": "u",
+    "text": "Şikayetini gördüm"
+   },
+   {
+    "from": "g",
+    "text": "Ne şikayeti"
+   },
+   {
+    "from": "u",
+    "text": "Hikayende canım sıkkın yazmışsın"
+   },
+   {
+    "from": "u",
+    "text": "günde iki mesaj, bana",
+    "rx": "❤️"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "yan etkisi var mı"
+   },
+   {
+    "from": "u",
+    "text": "Bağımlılık yapar"
+   },
+   {
+    "from": "g",
+    "text": "0532 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "yaz bakalım şu reçeteyi"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Muayene başladı",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 5,
+    "src": "memes/hoca_saha.jpg",
+    "chip": "Teşhis kondu",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/hazir_buyukayip.jpg",
+    "hold": 1.3
+   },
+   {
+    "after": 11,
+    "src": "memes/kapak_kral.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Reçete yazıldı • • • • • #flört #sohbet #sevgili #tinder #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "tavlamauzman",
+  "baslik_tipi": "punchline",
+  "id": "T21",
+  "slug": "sira",
+  "tema": "özgüven",
+  "spice": 3,
+  "son": "numara",
+  "photo": "photos/havuz/P08.jpg",
+  "suggestion": "Hikayene dört yüz kişi bakmış,\nben dört yüz birim, beklerim",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Sıra numarası aldım"
+   },
+   {
+    "from": "g",
+    "text": "Nereden"
+   },
+   {
+    "from": "g",
+    "text": "Ne sırası ya"
+   },
+   {
+    "from": "u",
+    "text": "Sende sıra var galiba"
+   },
+   {
+    "from": "g",
+    "text": "Anlamadımmm"
+   },
+   {
+    "from": "u",
+    "text": "Hikayene dört yüz kişi bakmış"
+   },
+   {
+    "from": "u",
+    "text": "ben dört yüz birim, beklerim",
+    "rx": "❤️"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjshd"
+   },
+   {
+    "from": "g",
+    "text": "sabırlıymışsın"
+   },
+   {
+    "from": "u",
+    "text": "Sıram gelecek"
+   },
+   {
+    "from": "g",
+    "text": "0538 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "sıranı atladım hadi"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/gunes_selam.jpg",
+    "chip": "Sıra bende",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 5,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Sayı fazla",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/hazir_aceleci.jpg",
+    "hold": 1.3
+   },
+   {
+    "after": 11,
+    "src": "memes/kapak_arda.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Sıra bize geldi • • • • • #flört #sevgili #tinder #flörttaktikleri #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "tavlamauzman",
+  "baslik_tipi": "punchline",
+  "id": "T22",
+  "slug": "penalti",
+  "tema": "futbol göndermesi",
+  "spice": 2,
+  "son": "gülme",
+  "photo": "photos/havuz/P57.jpg",
+  "suggestion": "Boş kaleye atmadın,\nhakem hâlâ bekliyor",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Penaltıyı kaçırdın"
+   },
+   {
+    "from": "g",
+    "text": "Ne penaltısı"
+   },
+   {
+    "from": "g",
+    "text": "Maç mı var"
+   },
+   {
+    "from": "u",
+    "text": "İki gün önce mesaj attım"
+   },
+   {
+    "from": "g",
+    "text": "Görmedim"
+   },
+   {
+    "from": "u",
+    "text": "Boş kaleye atmadın"
+   },
+   {
+    "from": "u",
+    "text": "hakem hâlâ bekliyor"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "kim bu hakem"
+   },
+   {
+    "from": "u",
+    "text": "Ben"
+   },
+   {
+    "from": "g",
+    "text": "ahahahah tamam yeter 🫠"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/hoca_saha.jpg",
+    "chip": "Maç var",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 5,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Kaçırdı",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/gunes_isaret.jpg",
+    "chip": "Hakem o",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 11,
+    "src": "memes/kapak_kral.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Tekrar çekilecek • • • • • #flört #manita #sohbet #keşfet #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "tavlamauzman",
+  "baslik_tipi": "punchline",
+  "id": "T23",
+  "slug": "playlist",
+  "tema": "kelime oyunu",
+  "spice": 2,
+  "son": "randevu",
+  "photo": "photos/havuz/P61.jpg",
+  "suggestion": "Benim adımın geçtiği,\ndaha yazılmadı",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Playlistini gördüm"
+   },
+   {
+    "from": "g",
+    "text": "Ee ne olmuş"
+   },
+   {
+    "from": "g",
+    "text": "Beğenmedin mi"
+   },
+   {
+    "from": "u",
+    "text": "Bir şarkı eksik"
+   },
+   {
+    "from": "g",
+    "text": "Hangisi"
+   },
+   {
+    "from": "u",
+    "text": "Benim adımın geçtiği"
+   },
+   {
+    "from": "u",
+    "text": "daha yazılmadı",
+    "rx": "❤️"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjs"
+   },
+   {
+    "from": "g",
+    "text": "sanatçı mısın"
+   },
+   {
+    "from": "u",
+    "text": "Söz yazarı"
+   },
+   {
+    "from": "g",
+    "text": "cumartesi dinlerim o zaman"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/terim_ciddi.jpg",
+    "chip": "Liste inceleniyor",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 5,
+    "src": "memes/hoca_saha.jpg",
+    "chip": "Söz hazır",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/hazir_havaya.jpg",
+    "hold": 1.3
+   },
+   {
+    "after": 11,
+    "src": "memes/terim_stadyum.jpg",
+    "label": "Son dakika",
+    "head": "ŞARKI\nÇIKIYOR",
+    "yellow": true,
+    "headSize": 118,
+    "headBottom": 48,
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Şarkı yazılıyor • • • • • #flört #sohbet #sevgili #tinder #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "tavlamauzman",
+  "baslik_tipi": "punchline",
+  "id": "T24",
+  "slug": "emlak",
+  "tema": "özgüven",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P60.jpg",
+  "suggestion": "Manzara birinci sınıf,\nama kiracı seçiyor",
+  "messages": [
+   {
+    "from": "u",
+    "text": "İlanını gördüm"
+   },
+   {
+    "from": "g",
+    "text": "Ne ilanı"
+   },
+   {
+    "from": "g",
+    "text": "Ev mi arıyorsun"
+   },
+   {
+    "from": "u",
+    "text": "Hikayen ilan gibi"
+   },
+   {
+    "from": "g",
+    "text": "Nasıl yani"
+   },
+   {
+    "from": "u",
+    "text": "Manzara birinci sınıf"
+   },
+   {
+    "from": "u",
+    "text": "ama kiracı seçiyor"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "emlakçı mısın"
+   },
+   {
+    "from": "u",
+    "text": "Talibim"
+   },
+   {
+    "from": "g",
+    "text": "0546 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "gel bir bak bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "src": "memes/gunes_isaret.jpg",
+    "chip": "İlan burada",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 5,
+    "src": "memes/terim_bashi.jpg",
+    "chip": "Manzara güzel",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 7,
+    "src": "memes/hazir_ibre.jpg",
+    "hold": 1.35
+   },
+   {
+    "after": 9,
+    "src": "memes/arda_panik.jpg",
+    "chip": "Talip çıktı",
+    "style": "alt",
+    "hold": 1.25
+   },
+   {
+    "after": 11,
+    "src": "memes/kapak_arda.jpg",
+    "hold": 1.6
+   }
+  ],
+  "baslik": "Yer gösterildi • • • • • #flört #sevgili #tinder #flörttaktikleri #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "dmsihirbazi",
+  "tema2": "gece",
+  "baslik_tipi": "punchline",
+  "id": "D25",
+  "slug": "fal",
+  "tema": "kelime oyunu",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P04.jpg",
+  "suggestion": "Fincanda hep aynı şey çıkıyor,\nbiri sana çok bakıyor",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Falına baktım"
+   },
+   {
+    "from": "g",
+    "text": "Ne falı"
+   },
+   {
+    "from": "g",
+    "text": "Kahve bile içmedik"
+   },
+   {
+    "from": "u",
+    "text": "Gerek yok"
+   },
+   {
+    "from": "g",
+    "text": "Nasıl yani"
+   },
+   {
+    "from": "u",
+    "text": "Fincanda hep aynı şey çıkıyor"
+   },
+   {
+    "from": "u",
+    "text": "biri sana çok bakıyor"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjshd"
+   },
+   {
+    "from": "g",
+    "text": "falcı mısın sen"
+   },
+   {
+    "from": "u",
+    "text": "Sadece dikkatliyim"
+   },
+   {
+    "from": "g",
+    "text": "0533 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "gerisini de söyle bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "arama",
+    "sorgu": "kahve falı gerçek mi",
+    "rows": [
+     {
+      "tx": "kahve falı tutar mı"
+     },
+     {
+      "tx": "fincanda biri sana bakıyor ne demek",
+      "hit": true
+     },
+     {
+      "tx": "falcıya nasıl cevap verilir"
+     }
+    ],
+    "hold": 1.35
+   },
+   {
+    "after": 5,
+    "kart": "bildirim",
+    "ikon": "🔮",
+    "baslik": "Fal hazır",
+    "govde": "Fincanda tek bir şey görünüyor",
+    "renk": "#7A4BD1",
+    "hold": 1.3
+   },
+   {
+    "after": 7,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@burakk",
+      "tx": "abi bu nasıl bir giriş",
+      "n": "2.1B"
+     },
+     {
+      "ad": "@elifnurr",
+      "tx": "falcıymış 😭",
+      "n": "940"
+     }
+    ],
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "bildirim",
+    "ikon": "☕",
+    "baslik": "Fincan kapandı",
+    "govde": "Üç gün içinde haber var",
+    "renk": "#C2379B",
+    "hold": 1.3
+   },
+   {
+    "after": 11,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@mertcan",
+      "tx": "üç gün beklemedi bile",
+      "n": "5.4B"
+     },
+     {
+      "ad": "@sudenaz",
+      "tx": "fal tuttu resmen",
+      "n": "2.9B"
+     }
+    ],
+    "hold": 1.7
+   }
+  ],
+  "baslik": "Fincan doğru çıktı • • • • • #dm #mesaj #yazışma #keşfet #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "dmsihirbazi",
+  "tema2": "gece",
+  "baslik_tipi": "punchline",
+  "id": "D26",
+  "slug": "kombin",
+  "tema": "özgüven",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P53.jpg",
+  "suggestion": "Ne giysen aynı kapıya çıkıyor,\nkimse kıyafete bakmıyor",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Kombin yanlış"
+   },
+   {
+    "from": "g",
+    "text": "Nesi yanlışmış"
+   },
+   {
+    "from": "g",
+    "text": "Saatlerce uğraştım"
+   },
+   {
+    "from": "u",
+    "text": "Uğraşman gereksizdi"
+   },
+   {
+    "from": "g",
+    "text": "Neden"
+   },
+   {
+    "from": "u",
+    "text": "Ne giysen aynı kapıya çıkıyor"
+   },
+   {
+    "from": "u",
+    "text": "kimse kıyafete bakmıyor"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "laf mı sokuyorsun"
+   },
+   {
+    "from": "u",
+    "text": "İltifat ediyorum"
+   },
+   {
+    "from": "g",
+    "text": "0546 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "düzgün söyle bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "bildirim",
+    "ikon": "👗",
+    "baslik": "Kombin uyarısı",
+    "govde": "Bu kombin 4 saat sürdü",
+    "renk": "#D9803A",
+    "hold": 1.3
+   },
+   {
+    "after": 5,
+    "kart": "arama",
+    "sorgu": "iltifat mı hakaret mi",
+    "rows": [
+     {
+      "tx": "ne giysen aynı ne demek"
+     },
+     {
+      "tx": "bu iltifat mı",
+      "hit": true
+     }
+    ],
+    "hold": 1.35
+   },
+   {
+    "after": 7,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@sena.k",
+      "tx": "iltifat mı bu kavga mı",
+      "n": "3.8B"
+     },
+     {
+      "ad": "@onurcn",
+      "tx": "riskli ama tuttu",
+      "n": "1.2B"
+     }
+    ],
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "bildirim",
+    "ikon": "⚠️",
+    "baslik": "Risk alındı",
+    "govde": "Karşı taraf hâlâ yazıyor",
+    "renk": "#2FA37A",
+    "hold": 1.3
+   },
+   {
+    "after": 11,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@dilaraa",
+      "tx": "numara verdi bak",
+      "n": "6.7B"
+     },
+     {
+      "ad": "@arda.k",
+      "tx": "kombin kurtardı",
+      "n": "1.9B"
+     }
+    ],
+    "hold": 1.7
+   }
+  ],
+  "baslik": "Kombin onaylandı • • • • • #dm #sohbet #manita #keşfetteyizzz #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "dmsihirbazi",
+  "tema2": "gece",
+  "baslik_tipi": "punchline",
+  "id": "D27",
+  "slug": "tatil",
+  "tema": "kelime oyunu",
+  "spice": 1,
+  "son": "randevu",
+  "photo": "photos/havuz/P63.jpg",
+  "suggestion": "Deniz manzarası zaten profilinde,\nuçağa binmene gerek yok",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Tatil planın iptal"
+   },
+   {
+    "from": "g",
+    "text": "Kim iptal etmiş"
+   },
+   {
+    "from": "g",
+    "text": "Bileti aldım bile"
+   },
+   {
+    "from": "u",
+    "text": "Yanlış yere gidiyorsun"
+   },
+   {
+    "from": "g",
+    "text": "Nereye gidecekmişim"
+   },
+   {
+    "from": "u",
+    "text": "Deniz manzarası zaten profilinde"
+   },
+   {
+    "from": "u",
+    "text": "uçağa binmene gerek yok",
+    "rx": "❤️"
+   },
+   {
+    "from": "g",
+    "text": "hshshshs"
+   },
+   {
+    "from": "g",
+    "text": "acente misin"
+   },
+   {
+    "from": "u",
+    "text": "Rehberim"
+   },
+   {
+    "from": "g",
+    "text": "cumartesi tur var mı o zaman"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "arama",
+    "sorgu": "bilet iptal edilir mi",
+    "rows": [
+     {
+      "tx": "son dakika bilet iptali"
+     },
+     {
+      "tx": "tatil yerine ne yapılır",
+      "hit": true
+     }
+    ],
+    "hold": 1.35
+   },
+   {
+    "after": 5,
+    "kart": "bildirim",
+    "ikon": "✈️",
+    "baslik": "Rota güncellendi",
+    "govde": "Varış noktası değişti",
+    "renk": "#2E8FD9",
+    "hold": 1.3
+   },
+   {
+    "after": 7,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@kaan_",
+      "tx": "adam bileti iptal ettirdi",
+      "n": "4.2B"
+     },
+     {
+      "ad": "@zeynepp",
+      "tx": "rehbermiş 💀",
+      "n": "1.8B"
+     }
+    ],
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "bildirim",
+    "ikon": "🧭",
+    "baslik": "Tur programı",
+    "govde": "Cumartesi için yer ayrıldı",
+    "renk": "#2FA37A",
+    "hold": 1.3
+   },
+   {
+    "after": 11,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@efe.t",
+      "tx": "rezervasyon tamam",
+      "n": "7.1B"
+     },
+     {
+      "ad": "@melis",
+      "tx": "bilet iade edilsin",
+      "n": "2.2B"
+     }
+    ],
+    "hold": 1.7
+   }
+  ],
+  "baslik": "Rota değişti • • • • • #dm #mesajatma #tinder #keşfet #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "dmsihirbazi",
+  "tema2": "gece",
+  "baslik_tipi": "punchline",
+  "id": "D28",
+  "slug": "diyet",
+  "tema": "özgüven",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P48.jpg",
+  "suggestion": "Hikayene bakınca\ntatlı krizine girdim",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Diyetin bozuldu"
+   },
+   {
+    "from": "g",
+    "text": "Nereden biliyorsun"
+   },
+   {
+    "from": "g",
+    "text": "Bir şey yemedim ki"
+   },
+   {
+    "from": "u",
+    "text": "Sen değil ben bozdum"
+   },
+   {
+    "from": "g",
+    "text": "Ne alaka"
+   },
+   {
+    "from": "u",
+    "text": "Hikayene bakınca"
+   },
+   {
+    "from": "u",
+    "text": "tatlı krizine girdim"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "bu ne biçim laf"
+   },
+   {
+    "from": "u",
+    "text": "Dürüst laf"
+   },
+   {
+    "from": "g",
+    "text": "0532 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "kaç kalori bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "bildirim",
+    "ikon": "🥗",
+    "baslik": "Diyet takibi",
+    "govde": "Bugün 0 kalori girildi",
+    "renk": "#2FA37A",
+    "hold": 1.3
+   },
+   {
+    "after": 5,
+    "kart": "arama",
+    "sorgu": "tatlı krizi nasıl geçer",
+    "rows": [
+     {
+      "tx": "gece tatlı krizi"
+     },
+     {
+      "tx": "tatlı krizi psikolojik mi",
+      "hit": true
+     }
+    ],
+    "hold": 1.35
+   },
+   {
+    "after": 7,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@barissss",
+      "tx": "tatlı krizi diyor 😭",
+      "n": "9.3B"
+     },
+     {
+      "ad": "@ecrin",
+      "tx": "bunu not aldım",
+      "n": "2.4B"
+     }
+    ],
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "bildirim",
+    "ikon": "🍰",
+    "baslik": "Kalori uyarısı",
+    "govde": "Bu hesap tutmuyor",
+    "renk": "#D9803A",
+    "hold": 1.3
+   },
+   {
+    "after": 11,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@umutcn",
+      "tx": "diyet bitmiş bile",
+      "n": "8.8B"
+     },
+     {
+      "ad": "@nazlim",
+      "tx": "tatlı krizi efsane",
+      "n": "3.3B"
+     }
+    ],
+    "hold": 1.7
+   }
+  ],
+  "baslik": "Diyet bitti • • • • • #dm #mesaj #yazışma #keşfet #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "dmsihirbazi",
+  "tema2": "gece",
+  "baslik_tipi": "punchline",
+  "id": "D29",
+  "slug": "alarm",
+  "tema": "özgüven",
+  "spice": 3,
+  "son": "gülme",
+  "photo": "photos/havuz/P01.jpg",
+  "suggestion": "Hikayeni gördüm,\nbu gece kimse uyumuyor",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Alarmını kapat"
+   },
+   {
+    "from": "g",
+    "text": "Sana ne alarmımdan"
+   },
+   {
+    "from": "g",
+    "text": "Erken kalkmam lazım"
+   },
+   {
+    "from": "u",
+    "text": "Zaten uyuyamayacaksın"
+   },
+   {
+    "from": "g",
+    "text": "Neden"
+   },
+   {
+    "from": "u",
+    "text": "Hikayeni gördüm"
+   },
+   {
+    "from": "u",
+    "text": "bu gece kimse uyumuyor"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "sende hiç utanma yok"
+   },
+   {
+    "from": "u",
+    "text": "Var ama az"
+   },
+   {
+    "from": "g",
+    "text": "ahahah tamam yeter 🫠"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "bildirim",
+    "ikon": "⏰",
+    "baslik": "Alarm kuruldu",
+    "govde": "06:30 — 5 saat 12 dakika kaldı",
+    "renk": "#3E6BFF",
+    "hold": 1.3
+   },
+   {
+    "after": 5,
+    "kart": "arama",
+    "sorgu": "gece uyuyamama sebepleri",
+    "rows": [
+     {
+      "tx": "gece neden uyuyamıyorum"
+     },
+     {
+      "tx": "telefon yüzünden uyku kaçtı",
+      "hit": true
+     }
+    ],
+    "hold": 1.35
+   },
+   {
+    "after": 7,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@caner..",
+      "tx": "bu cümleyi kaydettim",
+      "n": "11.2B"
+     },
+     {
+      "ad": "@irem",
+      "tx": "utanması yok 😭",
+      "n": "3.1B"
+     }
+    ],
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "bildirim",
+    "ikon": "😴",
+    "baslik": "Alarm ertelendi",
+    "govde": "Yeniden kurulmadı",
+    "renk": "#7A4BD1",
+    "hold": 1.3
+   },
+   {
+    "after": 11,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@aleynaa",
+      "tx": "kız pes etti",
+      "n": "9.9B"
+     },
+     {
+      "ad": "@berkay_",
+      "tx": "alarm çalmayacak",
+      "n": "4.1B"
+     }
+    ],
+    "hold": 1.7
+   }
+  ],
+  "baslik": "Alarm iptal • • • • • #dm #sohbet #manita #keşfetteyizzz #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "dmsihirbazi",
+  "tema2": "gece",
+  "baslik_tipi": "punchline",
+  "id": "D30",
+  "slug": "kurs",
+  "tema": "kelime oyunu",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P06.jpg",
+  "suggestion": "İnsan böyle bakmayı nerede öğreniyor,\nben de öğreneyim dedim",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Kursa yazıldım"
+   },
+   {
+    "from": "g",
+    "text": "Ne kursu"
+   },
+   {
+    "from": "g",
+    "text": "Bana ne yani"
+   },
+   {
+    "from": "u",
+    "text": "Senin yüzünden"
+   },
+   {
+    "from": "g",
+    "text": "Ne yapmışım"
+   },
+   {
+    "from": "u",
+    "text": "İnsan böyle bakmayı nerede öğreniyor"
+   },
+   {
+    "from": "u",
+    "text": "ben de öğreneyim dedim",
+    "rx": "❤️"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjs"
+   },
+   {
+    "from": "g",
+    "text": "öğrenilmez o"
+   },
+   {
+    "from": "u",
+    "text": "Özel ders alırım"
+   },
+   {
+    "from": "g",
+    "text": "0507 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "hocası benim o zaman"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "arama",
+    "sorgu": "bakış kursu var mı",
+    "rows": [
+     {
+      "tx": "göz teması nasıl kurulur"
+     },
+     {
+      "tx": "böyle bakmak öğrenilir mi",
+      "hit": true
+     }
+    ],
+    "hold": 1.35
+   },
+   {
+    "after": 5,
+    "kart": "bildirim",
+    "ikon": "🎓",
+    "baslik": "Kayıt alındı",
+    "govde": "Kontenjan: 1 kişi",
+    "renk": "#2E8FD9",
+    "hold": 1.3
+   },
+   {
+    "after": 7,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@tolgaa",
+      "tx": "kursa yazılmış adam",
+      "n": "6.5B"
+     },
+     {
+      "ad": "@buse.",
+      "tx": "öğrenilmez dedi ama",
+      "n": "2.7B"
+     }
+    ],
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "bildirim",
+    "ikon": "📚",
+    "baslik": "Özel ders",
+    "govde": "Hoca henüz atanmadı",
+    "renk": "#C2379B",
+    "hold": 1.3
+   },
+   {
+    "after": 11,
+    "kart": "yorum",
+    "baslik": "Yorumlar",
+    "rows": [
+     {
+      "ad": "@kerem",
+      "tx": "hocasını da buldu",
+      "n": "10.4B"
+     },
+     {
+      "ad": "@ilaydaa",
+      "tx": "özel ders başlıyor",
+      "n": "3.6B"
+     }
+    ],
+    "hold": 1.7
+   }
+  ],
+  "baslik": "Kayıt yapıldı • • • • • #dm #mesajatma #tinder #keşfet #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "mesajustasi",
+  "tema2": "gunbatimi",
+  "baslik_tipi": "punchline",
+  "id": "M31",
+  "slug": "berber",
+  "tema": "özgüven",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P13.jpg",
+  "suggestion": "Ortada düzeltilecek bir şey yoktu,\nadam boşuna para aldı",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Berberin işini bilmiyor"
+   },
+   {
+    "from": "g",
+    "text": "Ne alakası var"
+   },
+   {
+    "from": "g",
+    "text": "Yeni kestirdim"
+   },
+   {
+    "from": "u",
+    "text": "O yüzden diyorum"
+   },
+   {
+    "from": "g",
+    "text": "Ne olmuş ki"
+   },
+   {
+    "from": "u",
+    "text": "Ortada düzeltilecek bir şey yoktu"
+   },
+   {
+    "from": "u",
+    "text": "adam boşuna para aldı"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjshd"
+   },
+   {
+    "from": "g",
+    "text": "berberi mi savunuyorsun"
+   },
+   {
+    "from": "u",
+    "text": "Seni savunuyorum"
+   },
+   {
+    "from": "g",
+    "text": "0533 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "devam et bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "kural",
+    "no": "KURAL 01",
+    "tx": "İLTİFATI\nDOSTA\nSAKLAMA",
+    "hold": 1.4
+   },
+   {
+    "after": 5,
+    "kart": "oncesonra",
+    "yanlis": "Saçın çok güzel olmuş",
+    "dogru": "Zaten düzeltilecek bir şey yoktu",
+    "hold": 1.5
+   },
+   {
+    "after": 7,
+    "kart": "kural",
+    "no": "KURAL 02",
+    "tx": "ÖVGÜYÜ\nÜÇÜNCÜ\nKİŞİYE SÖYLET",
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "oncesonra",
+    "yanlis": "Şaka yapıyordum",
+    "dogru": "Seni savunuyorum",
+    "hold": 1.5
+   },
+   {
+    "after": 11,
+    "kart": "kural",
+    "no": "SONUÇ",
+    "tx": "MAKAS\nBOŞA\nGİTTİ",
+    "hold": 1.7
+   }
+  ],
+  "baslik": "Makas boşa gitti • • • • • #mesaj #yazışma #ilişki #keşfet #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "mesajustasi",
+  "tema2": "gunbatimi",
+  "baslik_tipi": "punchline",
+  "id": "M32",
+  "slug": "konser",
+  "tema": "kelime oyunu",
+  "spice": 1,
+  "son": "randevu",
+  "photo": "photos/havuz/P47.jpg",
+  "suggestion": "Herkes sahneye bakacak,\nben sana bakacağım",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Bileti yanlış almışsın"
+   },
+   {
+    "from": "g",
+    "text": "Nereden biliyorsun"
+   },
+   {
+    "from": "g",
+    "text": "Ön sıra aldım"
+   },
+   {
+    "from": "u",
+    "text": "Sahne yanlış tarafta"
+   },
+   {
+    "from": "g",
+    "text": "Nasıl yani"
+   },
+   {
+    "from": "u",
+    "text": "Herkes sahneye bakacak"
+   },
+   {
+    "from": "u",
+    "text": "ben sana bakacağım",
+    "rx": "❤️"
+   },
+   {
+    "from": "g",
+    "text": "hshshshs"
+   },
+   {
+    "from": "g",
+    "text": "bilet mi alacaksın"
+   },
+   {
+    "from": "u",
+    "text": "İki tane"
+   },
+   {
+    "from": "g",
+    "text": "cumartesi görüşürüz o zaman"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "kural",
+    "no": "KURAL 01",
+    "tx": "İDDİAYI\nÖNCE AT\nSONRA AÇIKLA",
+    "hold": 1.4
+   },
+   {
+    "after": 5,
+    "kart": "oncesonra",
+    "yanlis": "Konsere gidelim mi",
+    "dogru": "Sahne yanlış tarafta",
+    "hold": 1.5
+   },
+   {
+    "after": 7,
+    "kart": "kural",
+    "no": "KURAL 02",
+    "tx": "ÖVGÜYÜ\nPLANIN\nİÇİNE SAKLA",
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "oncesonra",
+    "yanlis": "Ben de gelebilir miyim",
+    "dogru": "İki tane",
+    "hold": 1.5
+   },
+   {
+    "after": 11,
+    "kart": "kural",
+    "no": "SONUÇ",
+    "tx": "İKİ BİLET\nKESİLDİ",
+    "hold": 1.7
+   }
+  ],
+  "baslik": "İki bilet kesildi • • • • • #mesaj #sohbet #tavsiye #keşfetteyizzz #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "mesajustasi",
+  "tema2": "gunbatimi",
+  "baslik_tipi": "punchline",
+  "id": "M33",
+  "slug": "fatura",
+  "tema": "özgüven",
+  "spice": 1,
+  "son": "numara",
+  "photo": "photos/havuz/P31.jpg",
+  "suggestion": "Bu ay ekran süresi rekor kırdı,\nhep aynı profil",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Faturam yüksek geldi"
+   },
+   {
+    "from": "g",
+    "text": "Bana mı diyorsun"
+   },
+   {
+    "from": "g",
+    "text": "Ben ne yaptım"
+   },
+   {
+    "from": "u",
+    "text": "Sen sebep oldun"
+   },
+   {
+    "from": "g",
+    "text": "Nasıl"
+   },
+   {
+    "from": "u",
+    "text": "Bu ay ekran süresi rekor kırdı"
+   },
+   {
+    "from": "u",
+    "text": "hep aynı profil"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "stalker mısın"
+   },
+   {
+    "from": "u",
+    "text": "Abone"
+   },
+   {
+    "from": "g",
+    "text": "0546 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "aboneliği yükselt bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "kural",
+    "no": "KURAL 01",
+    "tx": "SUÇU\nKARŞI TARAFA\nAT",
+    "hold": 1.4
+   },
+   {
+    "after": 5,
+    "kart": "oncesonra",
+    "yanlis": "Profiline çok bakıyorum",
+    "dogru": "Bu ay ekran süresi rekor kırdı",
+    "hold": 1.5
+   },
+   {
+    "after": 7,
+    "kart": "kural",
+    "no": "KURAL 02",
+    "tx": "RAKAMLA\nKONUŞ\nLAFLA DEĞİL",
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "oncesonra",
+    "yanlis": "Kusura bakma",
+    "dogru": "Abone",
+    "hold": 1.5
+   },
+   {
+    "after": 11,
+    "kart": "kural",
+    "no": "SONUÇ",
+    "tx": "FATURA\nKABARIK",
+    "hold": 1.7
+   }
+  ],
+  "baslik": "Fatura kabarık • • • • • #mesaj #ilkmesaj #ilişki #tinder #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "mesajustasi",
+  "tema2": "gunbatimi",
+  "baslik_tipi": "punchline",
+  "id": "M34",
+  "slug": "kitap",
+  "tema": "kelime oyunu",
+  "spice": 1,
+  "son": "numara",
+  "photo": "photos/havuz/P27.jpg",
+  "suggestion": "Hikayen çıktı araya,\nsayfa unutuldu",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Kitabı yarım bıraktım"
+   },
+   {
+    "from": "g",
+    "text": "Sevmedin mi"
+   },
+   {
+    "from": "g",
+    "text": "Hangi kitap"
+   },
+   {
+    "from": "u",
+    "text": "Senin yüzünden"
+   },
+   {
+    "from": "g",
+    "text": "Ne yaptım ben"
+   },
+   {
+    "from": "u",
+    "text": "Hikayen çıktı araya"
+   },
+   {
+    "from": "u",
+    "text": "sayfa unutuldu"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjs"
+   },
+   {
+    "from": "g",
+    "text": "okumayı bırak o zaman"
+   },
+   {
+    "from": "u",
+    "text": "Bıraktım zaten"
+   },
+   {
+    "from": "g",
+    "text": "0532 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "yeni sayfa aç bakalım"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "kural",
+    "no": "KURAL 01",
+    "tx": "KISA\nCÜMLE\nDAHA AĞIR BASAR",
+    "hold": 1.4
+   },
+   {
+    "after": 5,
+    "kart": "oncesonra",
+    "yanlis": "Hikayeni izledim",
+    "dogru": "Hikayen çıktı araya",
+    "hold": 1.5
+   },
+   {
+    "after": 7,
+    "kart": "kural",
+    "no": "KURAL 02",
+    "tx": "SONUCU\nSÖYLE\nSEBEBİ SORSUN",
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "oncesonra",
+    "yanlis": "Yok yok okuyorum",
+    "dogru": "Bıraktım zaten",
+    "hold": 1.5
+   },
+   {
+    "after": 11,
+    "kart": "kural",
+    "no": "SONUÇ",
+    "tx": "SAYFA\nDEĞİŞTİ",
+    "hold": 1.7
+   }
+  ],
+  "baslik": "Sayfa değişti • • • • • #mesaj #yazışma #ilişki #keşfet #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "mesajustasi",
+  "tema2": "gunbatimi",
+  "baslik_tipi": "punchline",
+  "id": "M35",
+  "slug": "kedi",
+  "tema": "özgüven",
+  "spice": 1,
+  "son": "gülme",
+  "photo": "photos/havuz/P12.jpg",
+  "suggestion": "Her videoda bana bakıyor,\nonaylıyor herhalde",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Kedin beni tanıyor"
+   },
+   {
+    "from": "g",
+    "text": "Nasıl tanıyor"
+   },
+   {
+    "from": "g",
+    "text": "Hiç görüşmediniz"
+   },
+   {
+    "from": "u",
+    "text": "Hikayelerde gördü"
+   },
+   {
+    "from": "g",
+    "text": "Saçmalama"
+   },
+   {
+    "from": "u",
+    "text": "Her videoda bana bakıyor"
+   },
+   {
+    "from": "u",
+    "text": "onaylıyor herhalde"
+   },
+   {
+    "from": "g",
+    "text": "AHAHAHSHSHSH"
+   },
+   {
+    "from": "g",
+    "text": "kediyi karıştırma"
+   },
+   {
+    "from": "u",
+    "text": "Tarafsız gözlemci"
+   },
+   {
+    "from": "g",
+    "text": "ahahah tamam yeter 🫠"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "kural",
+    "no": "KURAL 01",
+    "tx": "İDDİAYI\nCİDDİ\nBİR YÜZLE SÖYLE",
+    "hold": 1.4
+   },
+   {
+    "after": 5,
+    "kart": "oncesonra",
+    "yanlis": "Kedin çok tatlı",
+    "dogru": "Kedin beni tanıyor",
+    "hold": 1.5
+   },
+   {
+    "after": 7,
+    "kart": "kural",
+    "no": "KURAL 02",
+    "tx": "ŞAKAYI\nSAVUNMA\nÜSTÜNE GİT",
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "oncesonra",
+    "yanlis": "Şaka şaka",
+    "dogru": "Tarafsız gözlemci",
+    "hold": 1.5
+   },
+   {
+    "after": 11,
+    "kart": "kural",
+    "no": "SONUÇ",
+    "tx": "KEDİ\nONAYLADI",
+    "hold": 1.7
+   }
+  ],
+  "baslik": "Kedi onayladı • • • • • #mesaj #sohbet #tavsiye #keşfetteyizzz #flörtai"
+ },
+ {
+  "appAfter": 5,
+  "zoomFrom": 8,
+  "endHold": 1.2,
+  "muzik": "muzik/bed.mp3",
+  "muzikBaslangic": 14,
+  "muzikSes": 0.85,
+  "hesap": "mesajustasi",
+  "tema2": "gunbatimi",
+  "baslik_tipi": "punchline",
+  "id": "M36",
+  "slug": "tarif",
+  "tema": "kelime oyunu",
+  "spice": 2,
+  "son": "numara",
+  "photo": "photos/havuz/P10.jpg",
+  "suggestion": "İnsan böyle nasıl duruyor,\ntarifini versene",
+  "messages": [
+   {
+    "from": "u",
+    "text": "Tarifi yanlış yazmışsın"
+   },
+   {
+    "from": "g",
+    "text": "Ne tarifi"
+   },
+   {
+    "from": "g",
+    "text": "Ben tarif paylaşmadım"
+   },
+   {
+    "from": "u",
+    "text": "Paylaştın sayılır"
+   },
+   {
+    "from": "g",
+    "text": "Nerede"
+   },
+   {
+    "from": "u",
+    "text": "İnsan böyle nasıl duruyor"
+   },
+   {
+    "from": "u",
+    "text": "tarifini versene",
+    "rx": "❤️"
+   },
+   {
+    "from": "g",
+    "text": "ahsjdjshd"
+   },
+   {
+    "from": "g",
+    "text": "aşçı mısın"
+   },
+   {
+    "from": "u",
+    "text": "Öğrenciyim"
+   },
+   {
+    "from": "g",
+    "text": "0507 ███ ██ ██"
+   },
+   {
+    "from": "g",
+    "text": "ders başlasın o zaman"
+   }
+  ],
+  "memes": [
+   {
+    "after": 2,
+    "kart": "kural",
+    "no": "KURAL 01",
+    "tx": "İTHAMLA\nBAŞLA\nSORUYLA DEĞİL",
+    "hold": 1.4
+   },
+   {
+    "after": 5,
+    "kart": "oncesonra",
+    "yanlis": "Çok güzelsin",
+    "dogru": "İnsan böyle nasıl duruyor",
+    "hold": 1.5
+   },
+   {
+    "after": 7,
+    "kart": "kural",
+    "no": "KURAL 02",
+    "tx": "İSTEĞİ\nMERAK\nGİBİ GÖSTER",
+    "hold": 1.4
+   },
+   {
+    "after": 9,
+    "kart": "oncesonra",
+    "yanlis": "Çok iddialıyım",
+    "dogru": "Öğrenciyim",
+    "hold": 1.5
+   },
+   {
+    "after": 11,
+    "kart": "kural",
+    "no": "SONUÇ",
+    "tx": "TARİF\nİSTENDİ",
+    "hold": 1.7
+   }
+  ],
+  "baslik": "Tarif istendi • • • • • #mesaj #ilkmesaj #ilişki #tinder #flörtai"
  }
 ]

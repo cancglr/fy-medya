@@ -57,6 +57,52 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0F14}
 .em{font-family:'Noto Color Emoji',sans-serif;font-size:1.15em;line-height:1;vertical-align:-0.10em}
 
 
+
+/* ---------- KART MEME (fotografsiz) ---------- */
+#mcard{display:none;width:1080px;padding:0 34px;font-family:Inter,'Noto Color Emoji',sans-serif}
+#mcard.on{display:block}
+.kbox{background:#15161C;border-radius:52px;padding:60px 56px 54px;box-shadow:0 24px 90px rgba(0,0,0,.65)}
+.ktitle{font-size:54px;font-weight:700;color:#fff;opacity:.55;margin-bottom:38px;letter-spacing:-.01em}
+.krow{display:flex;gap:30px;align-items:flex-start;margin:40px 0}
+.kav{width:104px;height:104px;border-radius:999px;flex:0 0 auto}
+.kbody{flex:1}
+.kuser{font-size:40px;color:#fff;opacity:.52;margin-bottom:12px}
+.ktext{font-size:60px;line-height:1.24;color:#fff;font-weight:500;letter-spacing:-.015em}
+.klike{display:flex;flex-direction:column;align-items:center;gap:6px;flex:0 0 auto;padding-top:8px}
+.klike .h{font-size:48px}
+.klike .n{font-size:34px;color:#fff;opacity:.5}
+/* arama karti */
+.kbar{display:flex;align-items:center;gap:24px;background:#23252E;border-radius:999px;
+  padding:38px 48px;font-size:58px;color:#fff;font-weight:500}
+.kbar .mg{opacity:.55;font-size:52px}
+.ksug{display:flex;align-items:center;gap:26px;padding:34px 14px;font-size:54px;
+  color:#fff;opacity:.72;border-bottom:2px solid rgba(255,255,255,.09)}
+.ksug:last-child{border-bottom:none}
+.ksug.hit{opacity:1;font-weight:700}
+/* bildirim karti */
+.knot{background:rgba(46,48,58,.96);border-radius:48px;padding:48px 52px;display:flex;gap:32px;align-items:center}
+.knot .ic{width:118px;height:118px;border-radius:28px;flex:0 0 auto;display:flex;
+  align-items:center;justify-content:center;font-size:66px}
+.knot .tt{font-size:46px;font-weight:800;color:#fff;margin-bottom:12px}
+.knot .bd{font-size:54px;color:#fff;opacity:.82;line-height:1.22}
+
+
+/* kural karti */
+.kkural{background:#12100E;border-radius:52px;padding:58px 56px 62px}
+.kkural .no{display:inline-block;background:#FF7A18;color:#12100E;font-weight:900;
+  font-size:38px;letter-spacing:.06em;padding:12px 26px;border-radius:14px;margin-bottom:36px}
+.kkural .tx{font-family:'Anton',Impact,sans-serif;font-size:116px;line-height:1.01;
+  color:#fff;text-transform:uppercase;letter-spacing:.005em}
+/* once/sonra karti */
+.kos{background:#221E19;border-radius:52px;padding:58px 54px;box-shadow:0 22px 80px rgba(0,0,0,.6)}
+.kos .r{display:flex;gap:30px;align-items:flex-start;margin:30px 0}
+.kos .mk{font-size:72px;line-height:1;flex:0 0 auto;font-weight:900;padding-top:26px}
+.kos .r.x .mk{color:#FF4D4D}
+.kos .r.v .mk{color:#3ED17E}
+.kos .lb{font-size:36px;opacity:.5;color:#fff;margin-bottom:12px;letter-spacing:.05em;font-weight:800}
+.kos .tt{font-size:64px;line-height:1.18;color:#fff;font-weight:600;letter-spacing:-.01em}
+.kos .r.x .tt{opacity:.5;text-decoration:line-through;text-decoration-thickness:5px}
+
 /* ---------- APP SCENE ---------- */
 #app{position:absolute;left:0;top:46%;transform:translateY(-50%);width:1080px;display:none;flex-direction:column;z-index:5;
   background:linear-gradient(157deg,#7C93FF 0%,#9E96FB 34%,#C9A7F2 62%,#F3C2DE 100%);
@@ -99,7 +145,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0F14}
     <div id="mlabel"></div>
     <div id="mhead"></div>
     <div id="mchip"></div>
-  </div></div>
+  </div><div id="mcard"></div></div>
   <div id="app">
     <div class="appbar">
       <div class="back"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></div>
@@ -117,6 +163,21 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0F14}
 
 <script>
 const W=1080,H=1920,PAD=22,WIN=3;
+const TEMALAR={
+  mor:{ bg:['#59105F','#7C1872','#440D50'], gloss:true,
+        sh:[['#FF7BE0','#A81C8E'],['#E06BFF','#7A17A0'],['#FF5FA8','#8E1560']],
+        path:'M50 88 C 12 62, 2 38, 16 22 C 28 8, 45 12, 50 26 C 55 12, 72 8, 84 22 C 98 38, 88 62, 50 88 Z',
+        u:'#FE2C85', g:'rgba(228,220,255,.20)', rx:'#3a1c46' },
+  gunbatimi:{ bg:['#3A1508','#7A2E10','#280E05'], gloss:true,
+        sh:[['#FFC46B','#C2611A'],['#FF9A3D','#9A3F10'],['#FFD98A','#B8701F']],
+        path:'M50 6 C74 6 94 26 94 50 C94 74 74 94 50 94 C26 94 6 74 6 50 C6 26 26 6 50 6 Z',
+        u:'#FF7A18', g:'rgba(255,232,208,.17)', rx:'#4a2412' },
+  gece:{ bg:['#0C1E52','#143A78','#08122F'], gloss:false,
+        sh:[['#8FE8FF','#1B6FB8'],['#B9C6FF','#2A46A8'],['#7FF3E0','#137A93']],
+        path:'M50 4 C 56 34, 66 44, 96 50 C 66 56, 56 66, 50 96 C 44 66, 34 56, 4 50 C 34 44, 44 34, 50 4 Z',
+        u:'#2F7BFF', g:'rgba(200,225,255,.18)', rx:'#16264d' }
+};
+let TH=TEMALAR.mor;
 let S=null, beats=[], meta=[], TL=[];
 
 function heartWall(h){
@@ -129,17 +190,17 @@ function heartWall(h){
     const o=(0.20+rnd()*0.45).toFixed(2), rot=(rnd()*44-22).toFixed(1);
     const g='hg'+(i%3);
     sh+=`<g transform="translate(${x.toFixed(0)},${y.toFixed(0)}) rotate(${rot}) scale(${(s/100).toFixed(3)})" opacity="${o}">`
-      + `<path d="M50 88 C 12 62, 2 38, 16 22 C 28 8, 45 12, 50 26 C 55 12, 72 8, 84 22 C 98 38, 88 62, 50 88 Z" fill="url(#${g})"/>`
-      + `<ellipse cx="34" cy="30" rx="12" ry="8" fill="#ffffff" opacity="0.26" transform="rotate(-28 34 30)"/></g>`;
+      + `<path d="${TH.path}" fill="url(#${g})"/>`
+      + (TH.gloss?`<ellipse cx="34" cy="30" rx="12" ry="8" fill="#ffffff" opacity="0.26" transform="rotate(-28 34 30)"/>`:'')+`</g>`;
   }
   return `<svg width="${W}" height="${h}" viewBox="0 0 ${W} ${h}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#59105F"/><stop offset="40%" stop-color="#7C1872"/>
-      <stop offset="100%" stop-color="#440D50"/></linearGradient>
-    <radialGradient id="hg0" cx="35%" cy="28%"><stop offset="0%" stop-color="#FF7BE0"/><stop offset="100%" stop-color="#A81C8E"/></radialGradient>
-    <radialGradient id="hg1" cx="35%" cy="28%"><stop offset="0%" stop-color="#E06BFF"/><stop offset="100%" stop-color="#7A17A0"/></radialGradient>
-    <radialGradient id="hg2" cx="35%" cy="28%"><stop offset="0%" stop-color="#FF5FA8"/><stop offset="100%" stop-color="#8E1560"/></radialGradient>
+      <stop offset="0%" stop-color="${TH.bg[0]}"/><stop offset="40%" stop-color="${TH.bg[1]}"/>
+      <stop offset="100%" stop-color="${TH.bg[2]}"/></linearGradient>
+    <radialGradient id="hg0" cx="35%" cy="28%"><stop offset="0%" stop-color="${TH.sh[0][0]}"/><stop offset="100%" stop-color="${TH.sh[0][1]}"/></radialGradient>
+    <radialGradient id="hg1" cx="35%" cy="28%"><stop offset="0%" stop-color="${TH.sh[1][0]}"/><stop offset="100%" stop-color="${TH.sh[1][1]}"/></radialGradient>
+    <radialGradient id="hg2" cx="35%" cy="28%"><stop offset="0%" stop-color="${TH.sh[2][0]}"/><stop offset="100%" stop-color="${TH.sh[2][1]}"/></radialGradient>
     <filter id="sm"><feGaussianBlur stdDeviation="2.2"/></filter>
   </defs>
   <rect width="${W}" height="${h}" fill="url(#bg)"/>
@@ -170,6 +231,13 @@ function build(script){
     d.innerHTML=`<div class="b">${cen(esc(m.text)).replace(/\n/g,'<br>')}${m.rx?`<span class="rx">${m.rx}</span>`:''}</div>`;
     box.appendChild(d);
   });
+  // tema secimi + balon renkleri
+  TH = TEMALAR[S.tema2||'mor'] || TEMALAR.mor;
+  {
+    let st=document.getElementById('temaCss');
+    if(!st){ st=document.createElement('style'); st.id='temaCss'; document.head.appendChild(st); }
+    st.textContent = `.m.u .b{background:${TH.u}} .m.g .b{background:${TH.g}} .rx{background:${TH.rx}}`;
+  }
   // wallpaper sized to column
   const colH=document.getElementById('msgs').offsetHeight+80;
   document.getElementById('wall').style.height=colH+'px';
@@ -251,9 +319,49 @@ function showApp(){
   else document.getElementById('cta').textContent=S.cta||"(FLÖRT AI link bio'da)";
 }
 function emo(t){return t.replace(/(\p{Extended_Pictographic}\uFE0F?)/gu,'<span class="em">$1</span>')}
+function kartHTML(m){
+  const k=m.kart, r=m.rows||[];
+  const AV=['#3E6BFF','#C2379B','#2FA37A','#D9803A','#7A4BD1','#2E8FD9'];
+  if(k==='yorum'){
+    return '<div class="kbox"><div class="ktitle">'+(m.baslik||'Yorumlar')+'</div>'
+      + r.map((x,i)=>'<div class="krow"><div class="kav" style="background:'+AV[i%AV.length]+'"></div>'
+          +'<div class="kbody"><div class="kuser">'+emo(x.ad||'kullanici')+'</div>'
+          +'<div class="ktext">'+emo(x.tx||'')+'</div></div>'
+          +'<div class="klike"><div class="h">🤍</div><div class="n">'+(x.n||'')+'</div></div></div>').join('')
+      + '</div>';
+  }
+  if(k==='arama'){
+    return '<div class="kbox"><div class="kbar"><span class="mg">🔍</span><span>'+emo(m.sorgu||'')+'</span></div>'
+      + '<div style="height:18px"></div>'
+      + r.map(x=>'<div class="ksug'+(x.hit?' hit':'')+'"><span style="opacity:.5">🔍</span><span>'+emo(x.tx||x)+'</span></div>').join('')
+      + '</div>';
+  }
+  if(k==='kural'){
+    return '<div class="kkural"><div class="no">'+(m.no||'KURAL')+'</div>'
+      + '<div class="tx">'+String(m.tx||'').replace(/\n/g,'<br>')+'</div></div>';
+  }
+  if(k==='oncesonra'){
+    return '<div class="kos">'
+      + '<div class="r x"><div class="mk">✕</div><div><div class="lb">'+(m.lb1||'BÖYLE DEĞİL')+'</div>'
+      + '<div class="tt">'+emo(m.yanlis||'')+'</div></div></div>'
+      + '<div class="r v"><div class="mk">✓</div><div><div class="lb">'+(m.lb2||'BÖYLE')+'</div>'
+      + '<div class="tt">'+emo(m.dogru||'')+'</div></div></div></div>';
+  }
+  if(k==='bildirim'){
+    return '<div class="knot"><div class="ic" style="background:'+(m.renk||'#3E6BFF')+'">'+(m.ikon||'💬')+'</div>'
+      + '<div><div class="tt">'+emo(m.baslik||'')+'</div><div class="bd">'+emo(m.govde||'')+'</div></div></div>';
+  }
+  return '';
+}
 function paintMeme(m){
   const img=document.getElementById('mimg'), lb=document.getElementById('mlabel'),
-        hd=document.getElementById('mhead'), ch=document.getElementById('mchip');
+        hd=document.getElementById('mhead'), ch=document.getElementById('mchip'),
+        cd=document.getElementById('mcard'), wr=document.getElementById('mwrap');
+  if(m.kart){
+    wr.style.display='none'; cd.className='on'; cd.innerHTML=kartHTML(m);
+    return;
+  }
+  wr.style.display=''; cd.className=''; cd.innerHTML='';
   if(img.getAttribute('src')!==m.src) img.src=m.src;
   lb.style.display='none'; hd.style.display='none'; ch.style.display='none';
   hd.classList.toggle('yellow', !!m.yellow); ch.classList.toggle('plain', m.style==='alt');

@@ -47,7 +47,7 @@ def render(script, outdir, name):
             seg_t += seg["d"]
         b.close()
     out = outdir/f"{name}.mp4"
-    muzik = script.get("muzik")
+    muzik = script.get("muzik")          # yerel yol veya https adresi; yoksa sessiz ses akisi
     if muzik and not str(muzik).startswith(("http://","https://")):
         mp = Path(muzik)
         if not mp.is_absolute(): mp = BASE/mp
@@ -65,7 +65,7 @@ def render(script, outdir, name):
                 "-c:a","aac","-b:a","160k"]
     else:
         cmd += ["-f","lavfi","-i","anullsrc=r=44100:cl=stereo","-c:a","aac","-b:a","96k"]
-    cmd += ["-t",f"{n/FPS:.3f}",
+    cmd += ["-t",f"{n/FPS:.3f}",          # gercek kare sayisindan; dur yuvarlama hatasi tasiyor
             "-c:v","libx264","-preset","slow","-crf","19","-pix_fmt","yuv420p",
             "-vf","scale=1080:1920:flags=lanczos","-movflags","+faststart", str(out)]
     subprocess.run(cmd, check=True)
@@ -81,6 +81,7 @@ if __name__ == "__main__":
         if s.get("photo"):
             pth = BASE/s["photo"]; s["photo"] = pth.as_uri() if pth.exists() else None
         for mm in s.get("memes", []):
+            if mm.get("kart"): continue          # kart meme: gorsel dosyasi yok
             pth = BASE/mm["src"]
             if not pth.exists(): raise SystemExit(f"meme yok: {pth}")
             mm["src"] = pth.as_uri()

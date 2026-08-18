@@ -1,0 +1,93 @@
+{
+ "terim_bashi": {
+  "file": "memes/terim_bashi.jpg",
+  "size": [
+   1080,
+   719
+  ]
+ },
+ "terim_ciddi": {
+  "file": "memes/terim_ciddi.jpg",
+  "size": [
+   1080,
+   895
+  ]
+ },
+ "terim_stadyum": {
+  "file": "memes/terim_stadyum.jpg",
+  "size": [
+   1080,
+   607
+  ]
+ },
+ "gunes_isaret": {
+  "file": "memes/gunes_isaret.jpg",
+  "size": [
+   1080,
+   699
+  ]
+ },
+ "gunes_selam": {
+  "file": "memes/gunes_selam.jpg",
+  "size": [
+   1080,
+   608
+  ]
+ },
+ "arda_panik": {
+  "file": "memes/arda_panik.jpg",
+  "size": [
+   1080,
+   608
+  ]
+ },
+ "hoca_saha": {
+  "file": "memes/hoca_saha.jpg",
+  "size": [
+   1080,
+   608
+  ]
+ },
+ "kapak_kral": {
+  "file": "memes/kapak_kral.jpg",
+  "size": [
+   1080,
+   798
+  ]
+ },
+ "kapak_arda": {
+  "file": "memes/kapak_arda.jpg",
+  "size": [
+   1080,
+   608
+  ]
+ },
+ "hazir_buyukayip": {
+  "file": "memes/hazir_buyukayip.jpg",
+  "size": [
+   1080,
+   608
+  ]
+ },
+ "hazir_havaya": {
+  "file": "memes/hazir_havaya.jpg",
+  "size": [
+   1080,
+   640
+  ]
+ },
+ "hazir_ibre": {
+  "file": "memes/hazir_ibre.jpg",
+  "size": [
+   1080,
+   608
+  ]
+ },
+ "hazir_aceleci": {
+  "file": "memes/hazir_aceleci.jpg",
+  "size": [
+   1080,
+   540
+  ]
+ }
+}
